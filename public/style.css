@@ -1,0 +1,35 @@
+* {
+    font-family: sans-serif;
+}
+
+.say {
+    /*border: 1px solid blue;*/
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 0!important;
+    display: inline-block;
+}
+
+.name {
+    margin: 0 0 0 11px;
+    color: #bbb;
+}
+
+.autocomplete-aera {
+    display: flex;
+}
+
+.autocomplete-aera p {
+    color: white;
+    background-color: black;
+    padding: 10px;
+    margin-left:5px;
+    border-radius: 20px;
+}
+
+.conversation {
+    max-height: 70vh;
+    overflow-y: scroll;
+}
