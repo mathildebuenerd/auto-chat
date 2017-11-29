@@ -97,9 +97,9 @@ function checkIfUserIsNew(id) {
     return true;
 }
 
-setupAnalysis();
-function setupAnalysis() {
-    let text = fs.readFileSync('data/demain-cest-loin.html', 'utf-8'); //readFileSync empêche la ligne suivante s'exécuter avant que celle-ci ne soit finie
+setupAnalysis('demain-cest-loin');
+function setupAnalysis(htmlFile) {
+    let text = fs.readFileSync('data/' + htmlFile + '.html', 'utf-8'); //readFileSync empêche la ligne suivante s'exécuter avant que celle-ci ne soit finie
     // let text = document.querySelector('body').textContent;
     let words = splitWords(text);
     function splitWords(text) {
@@ -166,10 +166,10 @@ function setupAnalysis() {
         return textArray;
     }
     console.log(words);
-    createFile(words, 'demain-cest-loin');
+    createFile(words, htmlFile);
     function createFile(arrayOfWords, filename) {
         let data = JSON.stringify(arrayOfWords, null, 2); // comme on a parser le json, il faut renvoyer du texte et pas un objet, "2" signifie qu'on ajoute 2 tabulations pour le formatage, sinon tout serait minifié sur la même ligne
-        fs.writeFile(filename + '.json', data, finished);
+        fs.writeFile('data/json/' + filename + '.json', data, finished);
         function finished(err) {
             console.log("all set");
         }
