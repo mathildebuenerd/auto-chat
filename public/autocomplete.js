@@ -44,7 +44,7 @@ let listOfWords = [
 ];
 
 
-getWords();
+// getWords();
 addAutocompleteOptions(3);
 
 // change toutes les options toutes les 3 secondes
@@ -60,13 +60,12 @@ setInterval(() => {
     time = getRandomInt(500, 5000);
 }, time);
 
-function getWords() {
-    // let mywords = Papa.parse("../data/liste_frequence_des_mots_132918_292375.csv", {
-    //     header: true
-    // });
-    //
-    // console.log(mywords);
-}
+
+// ('data/demain-cest-loin.json');
+// function getWords(jsonFile) {
+//     let data = JSON.parse(jsonFile);
+//     console.log(data);
+// }
 
 function fillOneAutocompleteOption() { // change une seule suggestion à la fois
     let suggestions = document.querySelectorAll('.suggestion');
@@ -101,19 +100,44 @@ function addAutocompleteOptions(quantity) { // d'abord on crée un nombre de pla
         autocompleteAera.appendChild(suggestion);
     }
 
+    function addWordToInputAera(e) {
+
+        console.log("j'ai touché le listener");
+        console.log(e.target.textContent);
+
+        let selectedWord = e.target.textContent;
+        let inputAera = document.querySelector(".inputSay");
+        inputAera.value += selectedWord + " ";
+
+
+    }
+
 }
 
-function addWordToInputAera(e) {
+fillAutocompleteWithJson('data');
+function fillAutocompleteWithJson(jsonFile) {
 
-    console.log("j'ai touché le listener");
-    console.log(e.target.textContent);
+    $.getJSON(jsonFile, (json) => {
+        console.log(json[0].word);
+        let words = [];
+        for(let i=0; i<json.length; i++) {
+            words.push(json[i].word);
+        }
+        console.log('words');
+        console.log(words);
+        $( "#tags" ).autocomplete({
+            source: words
+        });
+    });
+    // for (let i=0; i<json.length; i++) {
+    //
+    // }
+    // let data = JSON.parse(jsonFile);
 
-    let selectedWord = e.target.textContent;
-    let inputAera = document.querySelector(".inputSay");
-    inputAera.value += selectedWord + " ";
 
 
 }
+
 
 
 // renvoie un int random dans une fourchette donnée

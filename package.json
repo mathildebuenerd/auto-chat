@@ -16,6 +16,7 @@
   "author": "math",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.18.2",
     "express": "^4.16.2",
     "papaparse": "^4.3.6",
     "socket.io": "^2.0.3"

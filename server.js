@@ -1,7 +1,11 @@
 // met ne place le serveur
 let express = require('express');
 let app = express();
+
 let server = app.listen(3000);
+// let bodyParser = require('body-parser'); // pour contourner le Content Security Policy
+// app.use(bodyParser.urlencoded({extended:false}));
+// app.use(bodyParser.json());
 
 let fs = require('fs'); // pour lire le texte à analyser et écrire le json avec le tableau des mots
 
@@ -97,7 +101,8 @@ function checkIfUserIsNew(id) {
     return true;
 }
 
-setupAnalysis('demain-cest-loin');
+// setupAnalysis('demain-cest-loin');
+
 function setupAnalysis(htmlFile) {
     let text = fs.readFileSync('data/' + htmlFile + '.html', 'utf-8'); //readFileSync empêche la ligne suivante s'exécuter avant que celle-ci ne soit finie
     // let text = document.querySelector('body').textContent;
@@ -165,11 +170,11 @@ function setupAnalysis(htmlFile) {
 
         return textArray;
     }
-    console.log(words);
+    // console.log(words);
     createFile(words, htmlFile);
     function createFile(arrayOfWords, filename) {
         let data = JSON.stringify(arrayOfWords, null, 2); // comme on a parser le json, il faut renvoyer du texte et pas un objet, "2" signifie qu'on ajoute 2 tabulations pour le formatage, sinon tout serait minifié sur la même ligne
-        fs.writeFile('data/json/' + filename + '.json', data, finished);
+        fs.writeFile('data/json/' + filename + '.json', data, finished); // crée un fichier local
         function finished(err) {
             console.log("all set");
         }
@@ -177,6 +182,16 @@ function setupAnalysis(htmlFile) {
 
 }
 
+app.get('/data', createServerFile);
+
+// envoie le fichier json sur le serveur pour pouvoir y accedér facilement depuis le client
+function createServerFile(request, response) {
+    let data = fs.readFileSync('data/json/proust.json');
+    data = JSON.parse(data);
+    // console.log(data);
+    let reply = data;
+    response.send(reply); // envoie le json à la route /data
+}
 
 
 console.log('je tourne');

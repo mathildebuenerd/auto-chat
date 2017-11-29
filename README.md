@@ -8,7 +8,7 @@ The chat works with socket.io and is very basic, the intent is to make testings 
 
 ## Text analysis
 In the server.js file, there's a `setupAnalysis` function. It takes as parameter the name of an html file that is into a data folder.
-This function creates a json file from a text (that has to be in html format), with the list of the words used in the texte and the number of time they are used.
+This function creates a json file from a text (that has to be in html format), with the list of the words used in the text and the number of occurence.
 
 
 

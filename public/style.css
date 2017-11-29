@@ -33,3 +33,23 @@
     max-height: 70vh;
     overflow-y: scroll;
 }
+
+
+/**** jQuery UI - Autocomplete ****/
+
+.ui-autocomplete {
+    border: solid 2px red;
+}
+
+.ui-autocomplete-input {
+    border:solid 2px blue;
+}
+
+.ui-menu-item {
+    display: flex;
+    display: inline-block;
+    background-color: pink;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+}
