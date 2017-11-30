@@ -22,7 +22,7 @@ socket.on('newCo', enterUsername);
 function enterUsername() {
     console.log("enter user name");
     // let name = prompt("Entre ton nom!");
-    let name = prompt("Entre ton nom!");
+    let name = prompt("Entre ton nom!", "math");
     userInfos = {name: name};
     console.log("userInfos " + userInfos.name);
     // socket.emit("new-user", name);

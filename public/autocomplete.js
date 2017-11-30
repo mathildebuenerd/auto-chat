@@ -1,51 +1,46 @@
-let listOfWords = [
-    "abomine",
-    "Abongo",
-    "aboon",
-    "aborad",
-    "aboral",
-    "absolvitor",
-    "absolvitory",
-    "absonant",
-    "absonous",
-    "absorb",
-    "agistor",
-    "agitable",
-    "agitant",
-    "agitate",
-    "agitatedly",
-    "agitation",
-    "Aitkenite",
-    "Aitutakian",
-    "aiwan",
-    "Aix",
-    "aizle",
-    "Aizoaceae",
-    "aizoaceous",
-    "Aizoon",
-    "Ajaja",
-    "ajaja",
-    "ajangle",
-    "ajar",
-    "ajari",
-    "Ajatasatru",
-    "ajava",
-    "ajhar",
-    "ajivika",
-    "ajog",
-    "ajoint",
-    "ajowan",
-    "Ajuga",
-    "ajutment",
-    "ak",
-    "Aka",
-    "aka",
-    "Akal"
-];
+let listOfWords = [];
 
+let sayInput = document.querySelector('.inputSay');
+sayInput.addEventListener('keypress', (e) => {
+    console.log(e);
+    let key = e.key;
+    let allowedLetters = new RegExp('[a-z, ,\',Backspace]', 'gi');
+    if (allowedLetters.exec(key)) { // on ne prend en compte que les lettres et l'espace
+        console.log("letter allowed!");
 
+        let query = '';
+        if (key === 'Backspace') {
+            query = (sayInput.value).slice(0, -1);
+        } else {
+            query = sayInput.value + key;
+        }
+
+        console.log(query);
+        fillAutocompleteOptions(query);
+    }
+});
+
+function fillAutocompleteOptions(query) {
+
+    // console.log("query " + query);
+
+    let matchedWords = [];
+    for (let i=0; i<listOfWords.length; i++) {
+        if(listOfWords[i].indexOf(query) !== -1) { // si le pattern match, on ajoute le mot dans le tableau
+            // console.log("j'ai trouvé une correspondance! " + listOfWords[i]);
+            matchedWords.push(listOfWords[i]);
+        }
+    }
+
+    let suggestions = document.querySelectorAll('.suggestion');
+    for (let i=0; i<suggestions.length; i++) { // on parcoure le nombre de suggestions
+        suggestions[i].textContent = matchedWords[i];
+    }
+
+}
 // getWords();
 addAutocompleteOptions(3);
+
 
 // change toutes les options toutes les 3 secondes
 // setInterval( () => {
@@ -54,40 +49,29 @@ addAutocompleteOptions(3);
 
 
 // change les options une par une selon un timing random
-let time = 1000;
-setInterval(() => {
-    fillOneAutocompleteOption();
-    time = getRandomInt(500, 5000);
-}, time);
+// setInterval(() => {
+//     randomFill();
+//     time = getRandomInt(500, 5000);
+// }, time);
 
 
-// ('data/demain-cest-loin.json');
+
+// ('data/output/demain-cest-loin.json');
 // function getWords(jsonFile) {
 //     let data = JSON.parse(jsonFile);
 //     console.log(data);
 // }
 
-function fillOneAutocompleteOption() { // change une seule suggestion à la fois
+function randomFill() { // change une seule suggestion à la fois
     let suggestions = document.querySelectorAll('.suggestion');
     let nbOfProposals = listOfWords.length;
 
     let randomSuggestion = Math.floor(Math.random() * suggestions.length); // on sélectionne une suggestion au hasard
-
     let indexWord = Math.floor(Math.random() * nbOfProposals);
     suggestions[randomSuggestion].textContent = listOfWords[indexWord];
 
 }
 
-function fillAutocompleteOptions() { // puis on rempli les places créées avec la fonction addAutocompleteOptions
-
-    let suggestions = document.querySelectorAll('.suggestion');
-    let nbOfProposals = listOfWords.length;
-
-    for (let i = 0; i < suggestions.length; i++) {
-        let index = Math.floor(Math.random() * nbOfProposals);
-        suggestions[i].textContent = listOfWords[index];
-    }
-}
 
 function addAutocompleteOptions(quantity) { // d'abord on crée un nombre de places disponibles pour accueillir les mots
 
@@ -119,20 +103,16 @@ function fillAutocompleteWithJson(jsonFile) {
 
     $.getJSON(jsonFile, (json) => {
         console.log(json[0].word);
-        let words = [];
         for(let i=0; i<json.length; i++) {
-            words.push(json[i].word);
+            listOfWords.push(json[i].word);
         }
         console.log('words');
-        console.log(words);
-        $( ".inputSay" ).autocomplete({
-            source: words
-        });
+        console.log(listOfWords);
+        // $( ".inputSay" ).autocomplete({
+        //     source: listOfWords
+        // });
     });
-    // for (let i=0; i<json.length; i++) {
-    //
-    // }
-    // let data = JSON.parse(jsonFile);
+
 
 
 
