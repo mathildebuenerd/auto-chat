@@ -1,0 +1,3650 @@
+[
+  {
+    "word": "l'encre",
+    "coef": 3
+  },
+  {
+    "word": "coule",
+    "coef": 2
+  },
+  {
+    "word": "le",
+    "coef": 51
+  },
+  {
+    "word": "sang",
+    "coef": 2
+  },
+  {
+    "word": "se",
+    "coef": 14
+  },
+  {
+    "word": "répand",
+    "coef": 2
+  },
+  {
+    "word": "la",
+    "coef": 62
+  },
+  {
+    "word": "feuille",
+    "coef": 2
+  },
+  {
+    "word": "buvard",
+    "coef": 2
+  },
+  {
+    "word": "absorbe",
+    "coef": 2
+  },
+  {
+    "word": "l'émotion",
+    "coef": 2
+  },
+  {
+    "word": "sac",
+    "coef": 3
+  },
+  {
+    "word": "d'images",
+    "coef": 2
+  },
+  {
+    "word": "dans",
+    "coef": 19
+  },
+  {
+    "word": "ma",
+    "coef": 3
+  },
+  {
+    "word": "mémoire",
+    "coef": 2
+  },
+  {
+    "word": "je",
+    "coef": 17
+  },
+  {
+    "word": "parle",
+    "coef": 7
+  },
+  {
+    "word": "de",
+    "coef": 66
+  },
+  {
+    "word": "ce",
+    "coef": 7
+  },
+  {
+    "word": "que",
+    "coef": 11
+  },
+  {
+    "word": "mes",
+    "coef": 6
+  },
+  {
+    "word": "proches",
+    "coef": 2
+  },
+  {
+    "word": "vivent",
+    "coef": 2
+  },
+  {
+    "word": "et",
+    "coef": 17
+  },
+  {
+    "word": "vois",
+    "coef": 2
+  },
+  {
+    "word": "des",
+    "coef": 16
+  },
+  {
+    "word": "mecs",
+    "coef": 6
+  },
+  {
+    "word": "coulés",
+    "coef": 2
+  },
+  {
+    "word": "par",
+    "coef": 9
+  },
+  {
+    "word": "désespoir",
+    "coef": 2
+  },
+  {
+    "word": "qui",
+    "coef": 22
+  },
+  {
+    "word": "partent",
+    "coef": 3
+  },
+  {
+    "word": "à",
+    "coef": 28
+  },
+  {
+    "word": "dérive",
+    "coef": 2
+  },
+  {
+    "word": "pour",
+    "coef": 24
+  },
+  {
+    "word": "shit",
+    "coef": 3
+  },
+  {
+    "word": "déchirent",
+    "coef": 2
+  },
+  {
+    "word": "du",
+    "coef": 20
+  },
+  {
+    "word": "quotidien",
+    "coef": 2
+  },
+  {
+    "word": "écoute",
+    "coef": 2
+  },
+  {
+    "word": "bien",
+    "coef": 5
+  },
+  {
+    "word": "phrases",
+    "coef": 2
+  },
+  {
+    "word": "font",
+    "coef": 3
+  },
+  {
+    "word": "pas",
+    "coef": 25
+  },
+  {
+    "word": "rire",
+    "coef": 4
+  },
+  {
+    "word": "sourire",
+    "coef": 2
+  },
+  {
+    "word": "certains",
+    "coef": 5
+  },
+  {
+    "word": "l'ont",
+    "coef": 2
+  },
+  {
+    "word": "perdu",
+    "coef": 2
+  },
+  {
+    "word": "pense",
+    "coef": 3
+  },
+  {
+    "word": "momo",
+    "coef": 2
+  },
+  {
+    "word": "m'a",
+    "coef": 2
+  },
+  {
+    "word": "dit",
+    "coef": 2
+  },
+  {
+    "word": "plus",
+    "coef": 8
+  },
+  {
+    "word": "jamais",
+    "coef": 3
+  },
+  {
+    "word": "ne",
+    "coef": 7
+  },
+  {
+    "word": "l'ai",
+    "coef": 2
+  },
+  {
+    "word": "revu",
+    "coef": 2
+  },
+  {
+    "word": "tenter",
+    "coef": 2
+  },
+  {
+    "word": "diable",
+    "coef": 3
+  },
+  {
+    "word": "sortir",
+    "coef": 5
+  },
+  {
+    "word": "galère",
+    "coef": 2
+  },
+  {
+    "word": "t'as",
+    "coef": 2
+  },
+  {
+    "word": "gagné",
+    "coef": 2
+  },
+  {
+    "word": "frère",
+    "coef": 3
+  },
+  {
+    "word": "mais",
+    "coef": 10
+  },
+  {
+    "word": "c'est",
+    "coef": 24
+  },
+  {
+    "word": "toujours",
+    "coef": 4
+  },
+  {
+    "word": "misère",
+    "coef": 2
+  },
+  {
+    "word": "ceux",
+    "coef": 3
+  },
+  {
+    "word": "poussent",
+    "coef": 3
+  },
+  {
+    "word": "derrière",
+    "coef": 3
+  },
+  {
+    "word": "pousse",
+    "coef": 2
+  },
+  {
+    "word": "pousser",
+    "coef": 1
+  },
+  {
+    "word": "au",
+    "coef": 15
+  },
+  {
+    "word": "milieu",
+    "coef": 1
+  },
+  {
+    "word": "d'un",
+    "coef": 2
+  },
+  {
+    "word": "champ",
+    "coef": 2
+  },
+  {
+    "word": "béton",
+    "coef": 5
+  },
+  {
+    "word": "grandir",
+    "coef": 1
+  },
+  {
+    "word": "un",
+    "coef": 27
+  },
+  {
+    "word": "parking",
+    "coef": 2
+  },
+  {
+    "word": "voir",
+    "coef": 1
+  },
+  {
+    "word": "les",
+    "coef": 64
+  },
+  {
+    "word": "grands",
+    "coef": 1
+  },
+  {
+    "word": "faire",
+    "coef": 5
+  },
+  {
+    "word": "rentrer",
+    "coef": 3
+  },
+  {
+    "word": "ronds",
+    "coef": 1
+  },
+  {
+    "word": "pauvreté",
+    "coef": 1
+  },
+  {
+    "word": "ça",
+    "coef": 12
+  },
+  {
+    "word": "fait",
+    "coef": 10
+  },
+  {
+    "word": "gamberger",
+    "coef": 1
+  },
+  {
+    "word": "en",
+    "coef": 18
+  },
+  {
+    "word": "deux",
+    "coef": 4
+  },
+  {
+    "word": "temps",
+    "coef": 3
+  },
+  {
+    "word": "trois",
+    "coef": 4
+  },
+  {
+    "word": "mouvements",
+    "coef": 1
+  },
+  {
+    "word": "on",
+    "coef": 39
+  },
+  {
+    "word": "coupe",
+    "coef": 1
+  },
+  {
+    "word": "compresse",
+    "coef": 1
+  },
+  {
+    "word": "découpe",
+    "coef": 1
+  },
+  {
+    "word": "emballe",
+    "coef": 1
+  },
+  {
+    "word": "vend",
+    "coef": 1
+  },
+  {
+    "word": "a",
+    "coef": 10
+  },
+  {
+    "word": "tour",
+    "coef": 1
+  },
+  {
+    "word": "bras",
+    "coef": 1
+  },
+  {
+    "word": "l'argent",
+    "coef": 2
+  },
+  {
+    "word": "craque",
+    "coef": 1
+  },
+  {
+    "word": "ouais",
+    "coef": 1
+  },
+  {
+    "word": "vie",
+    "coef": 6
+  },
+  {
+    "word": "rmi",
+    "coef": 1
+  },
+  {
+    "word": "ici",
+    "coef": 6
+  },
+  {
+    "word": "rêve",
+    "coef": 3
+  },
+  {
+    "word": "jeunes",
+    "coef": 2
+  },
+  {
+    "word": "golf",
+    "coef": 2
+  },
+  {
+    "word": "gti",
+    "coef": 1
+  },
+  {
+    "word": "survet'",
+    "coef": 1
+  },
+  {
+    "word": "tacchini",
+    "coef": 1
+  },
+  {
+    "word": "tomber",
+    "coef": 3
+  },
+  {
+    "word": "femmes",
+    "coef": 1
+  },
+  {
+    "word": "l'aise",
+    "coef": 1
+  },
+  {
+    "word": "comme",
+    "coef": 16
+  },
+  {
+    "word": "manny",
+    "coef": 1
+  },
+  {
+    "word": "sur",
+    "coef": 12
+  },
+  {
+    "word": "scarface",
+    "coef": 1
+  },
+  {
+    "word": "suis",
+    "coef": 2
+  },
+  {
+    "word": "tout",
+    "coef": 4
+  },
+  {
+    "word": "monde",
+    "coef": 1
+  },
+  {
+    "word": "délire",
+    "coef": 1
+  },
+  {
+    "word": "dieu",
+    "coef": 2
+  },
+  {
+    "word": "merci",
+    "coef": 1
+  },
+  {
+    "word": "j'ai",
+    "coef": 2
+  },
+  {
+    "word": "grandi",
+    "coef": 2
+  },
+  {
+    "word": "malin",
+    "coef": 2
+  },
+  {
+    "word": "lui",
+    "coef": 1
+  },
+  {
+    "word": "il",
+    "coef": 1
+  },
+  {
+    "word": "crève",
+    "coef": 1
+  },
+  {
+    "word": "fin",
+    "coef": 2
+  },
+  {
+    "word": "faim",
+    "coef": 2
+  },
+  {
+    "word": "justifie",
+    "coef": 1
+  },
+  {
+    "word": "moyens",
+    "coef": 1
+  },
+  {
+    "word": "quatre",
+    "coef": 1
+  },
+  {
+    "word": "cinq",
+    "coef": 1
+  },
+  {
+    "word": "coups",
+    "coef": 2
+  },
+  {
+    "word": "malsains",
+    "coef": 1
+  },
+  {
+    "word": "tient",
+    "coef": 2
+  },
+  {
+    "word": "jusqu'à",
+    "coef": 1
+  },
+  {
+    "word": "demain",
+    "coef": 4
+  },
+  {
+    "word": "après",
+    "coef": 3
+  },
+  {
+    "word": "verra",
+    "coef": 1
+  },
+  {
+    "word": "marche",
+    "coef": 1
+  },
+  {
+    "word": "l'ombre",
+    "coef": 1
+  },
+  {
+    "word": "soir",
+    "coef": 2
+  },
+  {
+    "word": "matin",
+    "coef": 1
+  },
+  {
+    "word": "tapis",
+    "coef": 1
+  },
+  {
+    "word": "coin",
+    "coef": 1
+  },
+  {
+    "word": "couteau",
+    "coef": 1
+  },
+  {
+    "word": "main",
+    "coef": 2
+  },
+  {
+    "word": "bandit",
+    "coef": 1
+  },
+  {
+    "word": "grand",
+    "coef": 2
+  },
+  {
+    "word": "chemin",
+    "coef": 3
+  },
+  {
+    "word": "y",
+    "coef": 7
+  },
+  {
+    "word": "être",
+    "coef": 2
+  },
+  {
+    "word": "frapper",
+    "coef": 1
+  },
+  {
+    "word": "une",
+    "coef": 9
+  },
+  {
+    "word": "enclume",
+    "coef": 1
+  },
+  {
+    "word": "yeux",
+    "coef": 1
+  },
+  {
+    "word": "l'envieux",
+    "coef": 1
+  },
+  {
+    "word": "veut",
+    "coef": 3
+  },
+  {
+    "word": "route",
+    "coef": 1
+  },
+  {
+    "word": "entrer",
+    "coef": 1
+  },
+  {
+    "word": "s'en",
+    "coef": 4
+  },
+  {
+    "word": "cuir",
+    "coef": 1
+  },
+  {
+    "word": "réussir",
+    "coef": 1
+  },
+  {
+    "word": "s'évanouir",
+    "coef": 1
+  },
+  {
+    "word": "devenir",
+    "coef": 1
+  },
+  {
+    "word": "souvenir",
+    "coef": 2
+  },
+  {
+    "word": "si",
+    "coef": 4
+  },
+  {
+    "word": "jeune",
+    "coef": 1
+  },
+  {
+    "word": "avoir",
+    "coef": 1
+  },
+  {
+    "word": "plein",
+    "coef": 5
+  },
+  {
+    "word": "répertoire",
+    "coef": 1
+  },
+  {
+    "word": "gars",
+    "coef": 1
+  },
+  {
+    "word": "rayés",
+    "coef": 1
+  },
+  {
+    "word": "carte",
+    "coef": 1
+  },
+  {
+    "word": "qu'on",
+    "coef": 2
+  },
+  {
+    "word": "efface",
+    "coef": 1
+  },
+  {
+    "word": "tableau",
+    "coef": 1
+  },
+  {
+    "word": "tchpaou",
+    "coef": 1
+  },
+  {
+    "word": "noir",
+    "coef": 2
+  },
+  {
+    "word": "croire",
+    "coef": 1
+  },
+  {
+    "word": "quoi",
+    "coef": 2
+  },
+  {
+    "word": "sont",
+    "coef": 5
+  },
+  {
+    "word": "tous",
+    "coef": 2
+  },
+  {
+    "word": "miroirs",
+    "coef": 1
+  },
+  {
+    "word": "vont",
+    "coef": 1
+  },
+  {
+    "word": "même",
+    "coef": 2
+  },
+  {
+    "word": "sens",
+    "coef": 1
+  },
+  {
+    "word": "veulent",
+    "coef": 2
+  },
+  {
+    "word": "mettre",
+    "coef": 1
+  },
+  {
+    "word": "tiroirs",
+    "coef": 1
+  },
+  {
+    "word": "tiroir",
+    "coef": 1
+  },
+  {
+    "word": "passe",
+    "coef": 3
+  },
+  {
+    "word": "notre",
+    "coef": 2
+  },
+  {
+    "word": "finit",
+    "coef": 2
+  },
+  {
+    "word": "avant",
+    "coef": 2
+  },
+  {
+    "word": "connaître",
+    "coef": 1
+  },
+  {
+    "word": "l'enfer",
+    "coef": 1
+  },
+  {
+    "word": "terre",
+    "coef": 2
+  },
+  {
+    "word": "construit",
+    "coef": 1
+  },
+  {
+    "word": "son",
+    "coef": 2
+  },
+  {
+    "word": "paradis",
+    "coef": 1
+  },
+  {
+    "word": "fiction",
+    "coef": 1
+  },
+  {
+    "word": "désillusion",
+    "coef": 1
+  },
+  {
+    "word": "trop",
+    "coef": 8
+  },
+  {
+    "word": "forte",
+    "coef": 2
+  },
+  {
+    "word": "sors",
+    "coef": 1
+  },
+  {
+    "word": "chichon",
+    "coef": 2
+  },
+  {
+    "word": "réalité",
+    "coef": 1
+  },
+  {
+    "word": "tape",
+    "coef": 1
+  },
+  {
+    "word": "dur",
+    "coef": 1
+  },
+  {
+    "word": "besoin",
+    "coef": 1
+  },
+  {
+    "word": "d'évasion",
+    "coef": 1
+  },
+  {
+    "word": "evasion",
+    "coef": 1
+  },
+  {
+    "word": "évasion",
+    "coef": 1
+  },
+  {
+    "word": "effort",
+    "coef": 1
+  },
+  {
+    "word": "d'imagination",
+    "coef": 1
+  },
+  {
+    "word": "est",
+    "coef": 10
+  },
+  {
+    "word": "gris",
+    "coef": 1
+  },
+  {
+    "word": "murs",
+    "coef": 3
+  },
+  {
+    "word": "esprits",
+    "coef": 1
+  },
+  {
+    "word": "rats",
+    "coef": 1
+  },
+  {
+    "word": "nuit",
+    "coef": 2
+  },
+  {
+    "word": "s'échapper",
+    "coef": 1
+  },
+  {
+    "word": "prison",
+    "coef": 2
+  },
+  {
+    "word": "aiguille",
+    "coef": 1
+  },
+  {
+    "word": "l'action",
+    "coef": 1
+  },
+  {
+    "word": "fausse",
+    "coef": 1
+  },
+  {
+    "word": "diversion",
+    "coef": 1
+  },
+  {
+    "word": "jour",
+    "coef": 3
+  },
+  {
+    "word": "tu",
+    "coef": 7
+  },
+  {
+    "word": "pètes",
+    "coef": 1
+  },
+  {
+    "word": "plombs",
+    "coef": 2
+  },
+  {
+    "word": "chanceux",
+    "coef": 2
+  },
+  {
+    "word": "ont",
+    "coef": 1
+  },
+  {
+    "word": "cervelle",
+    "coef": 1
+  },
+  {
+    "word": "d'autres",
+    "coef": 1
+  },
+  {
+    "word": "envoient",
+    "coef": 1
+  },
+  {
+    "word": "poignée",
+    "coef": 1
+  },
+  {
+    "word": "biftons",
+    "coef": 2
+  },
+  {
+    "word": "guerre",
+    "coef": 1
+  },
+  {
+    "word": "fraternelle",
+    "coef": 1
+  },
+  {
+    "word": "armes",
+    "coef": 1
+  },
+  {
+    "word": "mauvaise",
+    "coef": 1
+  },
+  {
+    "word": "herbe",
+    "coef": 1
+  },
+  {
+    "word": "l'image",
+    "coef": 1
+  },
+  {
+    "word": "gangster",
+    "coef": 1
+  },
+  {
+    "word": "propage",
+    "coef": 1
+  },
+  {
+    "word": "gangrène",
+    "coef": 1
+  },
+  {
+    "word": "sème",
+    "coef": 1
+  },
+  {
+    "word": "ses",
+    "coef": 1
+  },
+  {
+    "word": "graines",
+    "coef": 3
+  },
+  {
+    "word": "graine",
+    "coef": 1
+  },
+  {
+    "word": "délinquant",
+    "coef": 1
+  },
+  {
+    "word": "qu'espériez-vous",
+    "coef": 1
+  },
+  {
+    "word": "leur",
+    "coef": 3
+  },
+  {
+    "word": "apprend",
+    "coef": 1
+  },
+  {
+    "word": "rien",
+    "coef": 4
+  },
+  {
+    "word": "homme",
+    "coef": 2
+  },
+  {
+    "word": "part",
+    "coef": 1
+  },
+  {
+    "word": "francs",
+    "coef": 1
+  },
+  {
+    "word": "franc-tireur",
+    "coef": 1
+  },
+  {
+    "word": "discret",
+    "coef": 1
+  },
+  {
+    "word": "groupe",
+    "coef": 1
+  },
+  {
+    "word": "organisé",
+    "coef": 1
+  },
+  {
+    "word": "racine",
+    "coef": 1
+  },
+  {
+    "word": "devient",
+    "coef": 2
+  },
+  {
+    "word": "impossible",
+    "coef": 1
+  },
+  {
+    "word": "arrêter",
+    "coef": 1
+  },
+  {
+    "word": "arrêté",
+    "coef": 1
+  },
+  {
+    "word": "poisseux",
+    "coef": 1
+  },
+  {
+    "word": "départ",
+    "coef": 1
+  },
+  {
+    "word": "sortie",
+    "coef": 1
+  },
+  {
+    "word": "prend",
+    "coef": 2
+  },
+  {
+    "word": "mois",
+    "coef": 2
+  },
+  {
+    "word": "bruit",
+    "coef": 1
+  },
+  {
+    "word": "court",
+    "coef": 1
+  },
+  {
+    "word": "réputation",
+    "coef": 2
+  },
+  {
+    "word": "grandit",
+    "coef": 1
+  },
+  {
+    "word": "barreaux",
+    "coef": 2
+  },
+  {
+    "word": "peur",
+    "coef": 1
+  },
+  {
+    "word": "routine",
+    "coef": 1
+  },
+  {
+    "word": "vulgaire",
+    "coef": 1
+  },
+  {
+    "word": "épine",
+    "coef": 1
+  },
+  {
+    "word": "fine",
+    "coef": 1
+  },
+  {
+    "word": "esquisse",
+    "coef": 1
+  },
+  {
+    "word": "chine",
+    "coef": 1
+  },
+  {
+    "word": "figurine",
+    "coef": 1
+  },
+  {
+    "word": "parfois",
+    "coef": 1
+  },
+  {
+    "word": "s'anime",
+    "coef": 2
+  },
+  {
+    "word": "animé",
+    "coef": 1
+  },
+  {
+    "word": "d'une",
+    "coef": 1
+  },
+  {
+    "word": "furieuse",
+    "coef": 1
+  },
+  {
+    "word": "envie",
+    "coef": 1
+  },
+  {
+    "word": "monnaie",
+    "coef": 1
+  },
+  {
+    "word": "tombé",
+    "coef": 2
+  },
+  {
+    "word": "qu'importe",
+    "coef": 1
+  },
+  {
+    "word": "qu'il",
+    "coef": 1
+  },
+  {
+    "word": "jette",
+    "coef": 1
+  },
+  {
+    "word": "dés",
+    "coef": 3
+  },
+  {
+    "word": "faut",
+    "coef": 1
+  },
+  {
+    "word": "flamber",
+    "coef": 1
+  },
+  {
+    "word": "perdre",
+    "coef": 1
+  },
+  {
+    "word": "gagner",
+    "coef": 1
+  },
+  {
+    "word": "avec",
+    "coef": 4
+  },
+  {
+    "word": "quelques",
+    "coef": 1
+  },
+  {
+    "word": "papiers",
+    "coef": 1
+  },
+  {
+    "word": "aidera",
+    "coef": 1
+  },
+  {
+    "word": "personne",
+    "coef": 3
+  },
+  {
+    "word": "demandera",
+    "coef": 1
+  },
+  {
+    "word": "d'où",
+    "coef": 1
+  },
+  {
+    "word": "ils",
+    "coef": 3
+  },
+  {
+    "word": "tombés",
+    "coef": 1
+  },
+  {
+    "word": "ou",
+    "coef": 4
+  },
+  {
+    "word": "risque",
+    "coef": 1
+  },
+  {
+    "word": "grave",
+    "coef": 2
+  },
+  {
+    "word": "cousin",
+    "coef": 1
+  },
+  {
+    "word": "toute",
+    "coef": 2
+  },
+  {
+    "word": "façon",
+    "coef": 1
+  },
+  {
+    "word": "cas",
+    "coef": 1
+  },
+  {
+    "word": "sort",
+    "coef": 1
+  },
+  {
+    "word": "vivre",
+    "coef": 1
+  },
+  {
+    "word": "chien",
+    "coef": 2
+  },
+  {
+    "word": "prince",
+    "coef": 1
+  },
+  {
+    "word": "y'a",
+    "coef": 2
+  },
+  {
+    "word": "photo",
+    "coef": 1
+  },
+  {
+    "word": "choix",
+    "coef": 1
+  },
+  {
+    "word": "griller",
+    "coef": 1
+  },
+  {
+    "word": "gigot",
+    "coef": 1
+  },
+  {
+    "word": "briller",
+    "coef": 1
+  },
+  {
+    "word": "joyaux",
+    "coef": 2
+  },
+  {
+    "word": "poches",
+    "coef": 1
+  },
+  {
+    "word": "cible",
+    "coef": 1
+  },
+  {
+    "word": "loin",
+    "coef": 4
+  },
+  {
+    "word": "flèche",
+    "coef": 1
+  },
+  {
+    "word": "ricoche",
+    "coef": 1
+  },
+  {
+    "word": "rajoute",
+    "coef": 1
+  },
+  {
+    "word": "encoche",
+    "coef": 1
+  },
+  {
+    "word": "moche",
+    "coef": 1
+  },
+  {
+    "word": "cochent",
+    "coef": 1
+  },
+  {
+    "word": "propre",
+    "coef": 1
+  },
+  {
+    "word": "case",
+    "coef": 1
+  },
+  {
+    "word": "décoche",
+    "coef": 1
+  },
+  {
+    "word": "cash",
+    "coef": 2
+  },
+  {
+    "word": "j'entends",
+    "coef": 1
+  },
+  {
+    "word": "cloches",
+    "coef": 1
+  },
+  {
+    "word": "pioche",
+    "coef": 1
+  },
+  {
+    "word": "creuser",
+    "coef": 1
+  },
+  {
+    "word": "trou",
+    "coef": 1
+  },
+  {
+    "word": "fastoche",
+    "coef": 2
+  },
+  {
+    "word": "facile",
+    "coef": 2
+  },
+  {
+    "word": "blouson",
+    "coef": 1
+  },
+  {
+    "word": "bourgeois",
+    "coef": 1
+  },
+  {
+    "word": "docile",
+    "coef": 1
+  },
+  {
+    "word": "mémés",
+    "coef": 1
+  },
+  {
+    "word": "hantise",
+    "coef": 1
+  },
+  {
+    "word": "porcelaine",
+    "coef": 1
+  },
+  {
+    "word": "pare-brise",
+    "coef": 1
+  },
+  {
+    "word": "tchac",
+    "coef": 1
+  },
+  {
+    "word": "rasoir",
+    "coef": 1
+  },
+  {
+    "word": "talbins",
+    "coef": 1
+  },
+  {
+    "word": "journée",
+    "coef": 1
+  },
+  {
+    "word": "lendemain",
+    "coef": 3
+  },
+  {
+    "word": "problème",
+    "coef": 1
+  },
+  {
+    "word": "vit",
+    "coef": 1
+  },
+  {
+    "word": "n'a",
+    "coef": 1
+  },
+  {
+    "word": "perd",
+    "coef": 1
+  },
+  {
+    "word": "autres",
+    "coef": 1
+  },
+  {
+    "word": "prennent",
+    "coef": 1
+  },
+  {
+    "word": "n'est",
+    "coef": 1
+  },
+  {
+    "word": "pressé",
+    "coef": 1
+  },
+  {
+    "word": "fur",
+    "coef": 1
+  },
+  {
+    "word": "mesure",
+    "coef": 1
+  },
+  {
+    "word": "avance",
+    "coef": 1
+  },
+  {
+    "word": "surveillant",
+    "coef": 1
+  },
+  {
+    "word": "nos",
+    "coef": 2
+  },
+  {
+    "word": "fesses",
+    "coef": 1
+  },
+  {
+    "word": "parler",
+    "coef": 2
+  },
+  {
+    "word": "futur",
+    "coef": 4
+  },
+  {
+    "word": "changera",
+    "coef": 1
+  },
+  {
+    "word": "grand-chose",
+    "coef": 1
+  },
+  {
+    "word": "générations",
+    "coef": 1
+  },
+  {
+    "word": "prochaines",
+    "coef": 1
+  },
+  {
+    "word": "seront",
+    "coef": 1
+  },
+  {
+    "word": "pires",
+    "coef": 1
+  },
+  {
+    "word": "nous",
+    "coef": 4
+  },
+  {
+    "word": "sera",
+    "coef": 2
+  },
+  {
+    "word": "morose",
+    "coef": 1
+  },
+  {
+    "word": "avenir",
+    "coef": 1
+  },
+  {
+    "word": "minute",
+    "coef": 1
+  },
+  {
+    "word": "d'après",
+    "coef": 1
+  },
+  {
+    "word": "but",
+    "coef": 1
+  },
+  {
+    "word": "anticiper",
+    "coef": 1
+  },
+  {
+    "word": "prévenir",
+    "coef": 1
+  },
+  {
+    "word": "clouer",
+    "coef": 2
+  },
+  {
+    "word": "cloués",
+    "coef": 1
+  },
+  {
+    "word": "banc",
+    "coef": 1
+  },
+  {
+    "word": "d'autre",
+    "coef": 1
+  },
+  {
+    "word": "boit",
+    "coef": 1
+  },
+  {
+    "word": "bière",
+    "coef": 1
+  },
+  {
+    "word": "siffle",
+    "coef": 1
+  },
+  {
+    "word": "gazières",
+    "coef": 1
+  },
+  {
+    "word": "n'ont",
+    "coef": 1
+  },
+  {
+    "word": "tiennent",
+    "coef": 1
+  },
+  {
+    "word": "papier",
+    "coef": 1
+  },
+  {
+    "word": "tue-mouches",
+    "coef": 1
+  },
+  {
+    "word": "là",
+    "coef": 1
+  },
+  {
+    "word": "sortira",
+    "coef": 1
+  },
+  {
+    "word": "satan",
+    "coef": 1
+  },
+  {
+    "word": "sa",
+    "coef": 1
+  },
+  {
+    "word": "fourche",
+    "coef": 2
+  },
+  {
+    "word": "enfourcher",
+    "coef": 1
+  },
+  {
+    "word": "risques",
+    "coef": 1
+  },
+  {
+    "word": "seconde",
+    "coef": 2
+  },
+  {
+    "word": "chaque",
+    "coef": 1
+  },
+  {
+    "word": "occasion",
+    "coef": 1
+  },
+  {
+    "word": "pierre",
+    "coef": 1
+  },
+  {
+    "word": "ajoutée",
+    "coef": 1
+  },
+  {
+    "word": "frondes",
+    "coef": 1
+  },
+  {
+    "word": "contre",
+    "coef": 1
+  },
+  {
+    "word": "leurs",
+    "coef": 3
+  },
+  {
+    "word": "lasers",
+    "coef": 1
+  },
+  {
+    "word": "désespèrent",
+    "coef": 1
+  },
+  {
+    "word": "beaucoup",
+    "coef": 1
+  },
+  {
+    "word": "touchent",
+    "coef": 1
+  },
+  {
+    "word": "obstinés",
+    "coef": 1
+  },
+  {
+    "word": "refusent",
+    "coef": 1
+  },
+  {
+    "word": "combat",
+    "coef": 1
+  },
+  {
+    "word": "suicidaire",
+    "coef": 1
+  },
+  {
+    "word": "sidère",
+    "coef": 1
+  },
+  {
+    "word": "sidérés",
+    "coef": 1
+  },
+  {
+    "word": "dieux",
+    "coef": 1
+  },
+  {
+    "word": "regardent",
+    "coef": 1
+  },
+  {
+    "word": "l'humain",
+    "coef": 1
+  },
+  {
+    "word": "diriger",
+    "coef": 1
+  },
+  {
+    "word": "vers",
+    "coef": 1
+  },
+  {
+    "word": "mauvais",
+    "coef": 1
+  },
+  {
+    "word": "côté",
+    "coef": 1
+  },
+  {
+    "word": "l'éternité",
+    "coef": 1
+  },
+  {
+    "word": "ferme",
+    "coef": 2
+  },
+  {
+    "word": "décidé",
+    "coef": 1
+  },
+  {
+    "word": "préférant",
+    "coef": 1
+  },
+  {
+    "word": "rôder",
+    "coef": 1
+  },
+  {
+    "word": "bas",
+    "coef": 1
+  },
+  {
+    "word": "haut",
+    "coef": 1
+  },
+  {
+    "word": "va",
+    "coef": 3
+  },
+  {
+    "word": "s'emmerder",
+    "coef": 1
+  },
+  {
+    "word": "qu'ici",
+    "coef": 1
+  },
+  {
+    "word": "anges",
+    "coef": 1
+  },
+  {
+    "word": "vendent",
+    "coef": 2
+  },
+  {
+    "word": "fumer",
+    "coef": 1
+  },
+  {
+    "word": "fumée",
+    "coef": 1
+  },
+  {
+    "word": "encore",
+    "coef": 1
+  },
+  {
+    "word": "bouffée",
+    "coef": 1
+  },
+  {
+    "word": "voile",
+    "coef": 1
+  },
+  {
+    "word": "tête",
+    "coef": 1
+  },
+  {
+    "word": "l'oreiller",
+    "coef": 1
+  },
+  {
+    "word": "merde",
+    "coef": 4
+  },
+  {
+    "word": "instant",
+    "coef": 1
+  },
+  {
+    "word": "estompée",
+    "coef": 1
+  },
+  {
+    "word": "fenêtre",
+    "coef": 1
+  },
+  {
+    "word": "cri",
+    "coef": 1
+  },
+  {
+    "word": "entrée",
+    "coef": 1
+  },
+  {
+    "word": "braquer",
+    "coef": 1
+  },
+  {
+    "word": "enfant",
+    "coef": 1
+  },
+  {
+    "word": "serrer",
+    "coef": 1
+  },
+  {
+    "word": "cartier",
+    "coef": 1
+  },
+  {
+    "word": "menotté",
+    "coef": 2
+  },
+  {
+    "word": "pieds",
+    "coef": 1
+  },
+  {
+    "word": "poings",
+    "coef": 1
+  },
+  {
+    "word": "liés",
+    "coef": 1
+  },
+  {
+    "word": "fatalité",
+    "coef": 1
+  },
+  {
+    "word": "prisonnier",
+    "coef": 1
+  },
+  {
+    "word": "donjon",
+    "coef": 1
+  },
+  {
+    "word": "destin",
+    "coef": 1
+  },
+  {
+    "word": "geôlier",
+    "coef": 1
+  },
+  {
+    "word": "turf",
+    "coef": 1
+  },
+  {
+    "word": "l'arène",
+    "coef": 1
+  },
+  {
+    "word": "jeux",
+    "coef": 1
+  },
+  {
+    "word": "gladiateur",
+    "coef": 1
+  },
+  {
+    "word": "courageux",
+    "coef": 1
+  },
+  {
+    "word": "coriace",
+    "coef": 1
+  },
+  {
+    "word": "lutte",
+    "coef": 1
+  },
+  {
+    "word": "peut",
+    "coef": 2
+  },
+  {
+    "word": "constructions",
+    "coef": 1
+  },
+  {
+    "word": "élevées",
+    "coef": 1
+  },
+  {
+    "word": "incompréhension",
+    "coef": 1
+  },
+  {
+    "word": "bandes",
+    "coef": 1
+  },
+  {
+    "word": "gosses",
+    "coef": 3
+  },
+  {
+    "word": "soi-disant",
+    "coef": 1
+  },
+  {
+    "word": "mal",
+    "coef": 2
+  },
+  {
+    "word": "élevés",
+    "coef": 1
+  },
+  {
+    "word": "frictions",
+    "coef": 1
+  },
+  {
+    "word": "excitation",
+    "coef": 1
+  },
+  {
+    "word": "patrouilles",
+    "coef": 1
+  },
+  {
+    "word": "civils",
+    "coef": 1
+  },
+  {
+    "word": "trouille",
+    "coef": 1
+  },
+  {
+    "word": "inutile",
+    "coef": 1
+  },
+  {
+    "word": "légendes",
+    "coef": 1
+  },
+  {
+    "word": "mythes",
+    "coef": 1
+  },
+  {
+    "word": "débiles",
+    "coef": 1
+  },
+  {
+    "word": "haschich",
+    "coef": 1
+  },
+  {
+    "word": "kilo",
+    "coef": 1
+  },
+  {
+    "word": "poètes",
+    "coef": 1
+  },
+  {
+    "word": "armés",
+    "coef": 1
+  },
+  {
+    "word": "stylos",
+    "coef": 1
+  },
+  {
+    "word": "réserves",
+    "coef": 1
+  },
+  {
+    "word": "créativité",
+    "coef": 1
+  },
+  {
+    "word": "hangars",
+    "coef": 1
+  },
+  {
+    "word": "silos",
+    "coef": 1
+  },
+  {
+    "word": "file",
+    "coef": 1
+  },
+  {
+    "word": "bloc",
+    "coef": 1
+  },
+  {
+    "word": "pack",
+    "coef": 1
+  },
+  {
+    "word": "heineken",
+    "coef": 1
+  },
+  {
+    "word": "mains",
+    "coef": 1
+  },
+  {
+    "word": "oublier",
+    "coef": 1
+  },
+  {
+    "word": "tirant",
+    "coef": 1
+  },
+  {
+    "word": "gros",
+    "coef": 1
+  },
+  {
+    "word": "joint",
+    "coef": 1
+  },
+  {
+    "word": "princesses",
+    "coef": 1
+  },
+  {
+    "word": "d'afrique",
+    "coef": 1
+  },
+  {
+    "word": "fille",
+    "coef": 1
+  },
+  {
+    "word": "mère",
+    "coef": 2
+  },
+  {
+    "word": "plastique",
+    "coef": 1
+  },
+  {
+    "word": "colle",
+    "coef": 1
+  },
+  {
+    "word": "raclo",
+    "coef": 1
+  },
+  {
+    "word": "masse",
+    "coef": 1
+  },
+  {
+    "word": "lunatique",
+    "coef": 1
+  },
+  {
+    "word": "economie",
+    "coef": 1
+  },
+  {
+    "word": "parallèle",
+    "coef": 1
+  },
+  {
+    "word": "équipe",
+    "coef": 1
+  },
+  {
+    "word": "dure",
+    "coef": 2
+  },
+  {
+    "word": "roc",
+    "coef": 1
+  },
+  {
+    "word": "petits",
+    "coef": 1
+  },
+  {
+    "word": "don",
+    "coef": 1
+  },
+  {
+    "word": "contrôlent",
+    "coef": 1
+  },
+  {
+    "word": "spots",
+    "coef": 1
+  },
+  {
+    "word": "pète",
+    "coef": 1
+  },
+  {
+    "word": "veuve",
+    "coef": 1
+  },
+  {
+    "word": "cliquot",
+    "coef": 1
+  },
+  {
+    "word": "parqués",
+    "coef": 1
+  },
+  {
+    "word": "mexico",
+    "coef": 1
+  },
+  {
+    "word": "horizons",
+    "coef": 1
+  },
+  {
+    "word": "cimentés",
+    "coef": 1
+  },
+  {
+    "word": "pickpockets",
+    "coef": 1
+  },
+  {
+    "word": "toxicos",
+    "coef": 1
+  },
+  {
+    "word": "personnes",
+    "coef": 1
+  },
+  {
+    "word": "honnêtes",
+    "coef": 1
+  },
+  {
+    "word": "ignorées",
+    "coef": 1
+  },
+  {
+    "word": "superflics",
+    "coef": 1
+  },
+  {
+    "word": "zorros",
+    "coef": 1
+  },
+  {
+    "word": "politiciens",
+    "coef": 1
+  },
+  {
+    "word": "journalistes",
+    "coef": 1
+  },
+  {
+    "word": "visite",
+    "coef": 1
+  },
+  {
+    "word": "zoo",
+    "coef": 1
+  },
+  {
+    "word": "musulmans",
+    "coef": 1
+  },
+  {
+    "word": "respectueux",
+    "coef": 1
+  },
+  {
+    "word": "pères",
+    "coef": 1
+  },
+  {
+    "word": "famille",
+    "coef": 2
+  },
+  {
+    "word": "humbles",
+    "coef": 1
+  },
+  {
+    "word": "baffles",
+    "coef": 1
+  },
+  {
+    "word": "blastent",
+    "coef": 1
+  },
+  {
+    "word": "musique",
+    "coef": 1
+  },
+  {
+    "word": "jungle",
+    "coef": 1
+  },
+  {
+    "word": "entrées",
+    "coef": 1
+  },
+  {
+    "word": "dévastées",
+    "coef": 1
+  },
+  {
+    "word": "carcasses",
+    "coef": 1
+  },
+  {
+    "word": "tires",
+    "coef": 1
+  },
+  {
+    "word": "éclatées",
+    "coef": 1
+  },
+  {
+    "word": "nuée",
+    "coef": 1
+  },
+  {
+    "word": "viennent",
+    "coef": 1
+  },
+  {
+    "word": "gratter",
+    "coef": 1
+  },
+  {
+    "word": "lumières",
+    "coef": 1
+  },
+  {
+    "word": "oranges",
+    "coef": 1
+  },
+  {
+    "word": "s'allument",
+    "coef": 1
+  },
+  {
+    "word": "cheminées",
+    "coef": 1
+  },
+  {
+    "word": "fument",
+    "coef": 1
+  },
+  {
+    "word": "parties",
+    "coef": 1
+  },
+  {
+    "word": "foot",
+    "coef": 1
+  },
+  {
+    "word": "improvisées",
+    "coef": 1
+  },
+  {
+    "word": "bitume",
+    "coef": 1
+  },
+  {
+    "word": "vr",
+    "coef": 1
+  },
+  {
+    "word": "pneus",
+    "coef": 1
+  },
+  {
+    "word": "crissent",
+    "coef": 1
+  },
+  {
+    "word": "silence",
+    "coef": 1
+  },
+  {
+    "word": "brisé",
+    "coef": 1
+  },
+  {
+    "word": "sirènes",
+    "coef": 1
+  },
+  {
+    "word": "police",
+    "coef": 1
+  },
+  {
+    "word": "polos",
+    "coef": 1
+  },
+  {
+    "word": "façonnable",
+    "coef": 1
+  },
+  {
+    "word": "survêtements",
+    "coef": 1
+  },
+  {
+    "word": "minables",
+    "coef": 1
+  },
+  {
+    "word": "mères",
+    "coef": 1
+  },
+  {
+    "word": "aux",
+    "coef": 2
+  },
+  {
+    "word": "traits",
+    "coef": 1
+  },
+  {
+    "word": "caractère",
+    "coef": 1
+  },
+  {
+    "word": "admirables",
+    "coef": 1
+  },
+  {
+    "word": "bidon",
+    "coef": 1
+  },
+  {
+    "word": "histoires",
+    "coef": 1
+  },
+  {
+    "word": "stupides",
+    "coef": 1
+  },
+  {
+    "word": "divisions",
+    "coef": 1
+  },
+  {
+    "word": "amas",
+    "coef": 1
+  },
+  {
+    "word": "tisons",
+    "coef": 1
+  },
+  {
+    "word": "clichés",
+    "coef": 1
+  },
+  {
+    "word": "d'orient",
+    "coef": 1
+  },
+  {
+    "word": "cuisine",
+    "coef": 1
+  },
+  {
+    "word": "piment",
+    "coef": 1
+  },
+  {
+    "word": "jolis",
+    "coef": 1
+  },
+  {
+    "word": "noms",
+    "coef": 1
+  },
+  {
+    "word": "d'arbres",
+    "coef": 1
+  },
+  {
+    "word": "bâtiments",
+    "coef": 1
+  },
+  {
+    "word": "forêt",
+    "coef": 1
+  },
+  {
+    "word": "ciment",
+    "coef": 1
+  },
+  {
+    "word": "désert",
+    "coef": 1
+  },
+  {
+    "word": "midi",
+    "coef": 1
+  },
+  {
+    "word": "soleil",
+    "coef": 1
+  },
+  {
+    "word": "écrasant",
+    "coef": 1
+  },
+  {
+    "word": "pendant",
+    "coef": 1
+  },
+  {
+    "word": "ramadan",
+    "coef": 1
+  },
+  {
+    "word": "distractions",
+    "coef": 1
+  },
+  {
+    "word": "créer",
+    "coef": 1
+  },
+  {
+    "word": "peu",
+    "coef": 1
+  },
+  {
+    "word": "d'action",
+    "coef": 1
+  },
+  {
+    "word": "jeu",
+    "coef": 1
+  },
+  {
+    "word": "contrée",
+    "coef": 1
+  },
+  {
+    "word": "paris",
+    "coef": 1
+  },
+  {
+    "word": "d'argent",
+    "coef": 1
+  },
+  {
+    "word": "méchante",
+    "coef": 1
+  },
+  {
+    "word": "attraction",
+    "coef": 1
+  },
+  {
+    "word": "rires",
+    "coef": 1
+  },
+  {
+    "word": "ininterrompus",
+    "coef": 1
+  },
+  {
+    "word": "arrestations",
+    "coef": 1
+  },
+  {
+    "word": "impromptues",
+    "coef": 1
+  },
+  {
+    "word": "maires",
+    "coef": 1
+  },
+  {
+    "word": "d'arrondissement",
+    "coef": 1
+  },
+  {
+    "word": "corrompus",
+    "coef": 1
+  },
+  {
+    "word": "marcher",
+    "coef": 1
+  },
+  {
+    "word": "seringues",
+    "coef": 1
+  },
+  {
+    "word": "usagées",
+    "coef": 1
+  },
+  {
+    "word": "rêver",
+    "coef": 1
+  },
+  {
+    "word": "voyager",
+    "coef": 1
+  },
+  {
+    "word": "autoradios",
+    "coef": 1
+  },
+  {
+    "word": "affaire",
+    "coef": 1
+  },
+  {
+    "word": "lot",
+    "coef": 1
+  },
+  {
+    "word": "chaînes",
+    "coef": 1
+  },
+  {
+    "word": "arrachées",
+    "coef": 1
+  },
+  {
+    "word": "bougre",
+    "coef": 1
+  },
+  {
+    "word": "sans",
+    "coef": 2
+  },
+  {
+    "word": "retour",
+    "coef": 1
+  },
+  {
+    "word": "psychopathe",
+    "coef": 1
+  },
+  {
+    "word": "pitié",
+    "coef": 1
+  },
+  {
+    "word": "meilleurs",
+    "coef": 1
+  },
+  {
+    "word": "liens",
+    "coef": 1
+  },
+  {
+    "word": "d'amitié",
+    "coef": 1
+  },
+  {
+    "word": "qu'un",
+    "coef": 2
+  },
+  {
+    "word": "type",
+    "coef": 2
+  },
+  {
+    "word": "puisse",
+    "coef": 1
+  },
+  {
+    "word": "trouver",
+    "coef": 1
+  },
+  {
+    "word": "génies",
+    "coef": 1
+  },
+  {
+    "word": "sport",
+    "coef": 1
+  },
+  {
+    "word": "faisant",
+    "coef": 1
+  },
+  {
+    "word": "classes",
+    "coef": 1
+  },
+  {
+    "word": "terrains",
+    "coef": 1
+  },
+  {
+    "word": "vagues",
+    "coef": 1
+  },
+  {
+    "word": "nouvelles",
+    "coef": 1
+  },
+  {
+    "word": "blagues",
+    "coef": 1
+  },
+  {
+    "word": "terribles",
+    "coef": 1
+  },
+  {
+    "word": "techniques",
+    "coef": 1
+  },
+  {
+    "word": "drague",
+    "coef": 1
+  },
+  {
+    "word": "individualités",
+    "coef": 1
+  },
+  {
+    "word": "craquent",
+    "coef": 1
+  },
+  {
+    "word": "parce",
+    "coef": 2
+  },
+  {
+    "word": "stressées",
+    "coef": 1
+  },
+  {
+    "word": "bouge",
+    "coef": 1
+  },
+  {
+    "word": "blessé",
+    "coef": 1
+  },
+  {
+    "word": "vapeur",
+    "coef": 1
+  },
+  {
+    "word": "d'éther",
+    "coef": 1
+  },
+  {
+    "word": "d'eau",
+    "coef": 1
+  },
+  {
+    "word": "écarlate",
+    "coef": 1
+  },
+  {
+    "word": "d'alcool",
+    "coef": 1
+  },
+  {
+    "word": "fourgon",
+    "coef": 1
+  },
+  {
+    "word": "brink's",
+    "coef": 1
+  },
+  {
+    "word": "maté",
+    "coef": 1
+  },
+  {
+    "word": "pactole",
+    "coef": 1
+  },
+  {
+    "word": "drôle",
+    "coef": 1
+  },
+  {
+    "word": "mord",
+    "coef": 1
+  },
+  {
+    "word": "enfermé",
+    "coef": 1
+  },
+  {
+    "word": "cage",
+    "coef": 1
+  },
+  {
+    "word": "bave",
+    "coef": 1
+  },
+  {
+    "word": "rage",
+    "coef": 1
+  },
+  {
+    "word": "grimpent",
+    "coef": 1
+  },
+  {
+    "word": "deuxième",
+    "coef": 1
+  },
+  {
+    "word": "étage",
+    "coef": 1
+  },
+  {
+    "word": "dealer",
+    "coef": 1
+  },
+  {
+    "word": "hashich",
+    "coef": 1
+  },
+  {
+    "word": "sage",
+    "coef": 1
+  },
+  {
+    "word": "veux",
+    "coef": 1
+  },
+  {
+    "word": "femme",
+    "coef": 1
+  },
+  {
+    "word": "plonges",
+    "coef": 1
+  },
+  {
+    "word": "drame",
+    "coef": 1
+  },
+  {
+    "word": "l'école",
+    "coef": 1
+  },
+  {
+    "word": "ennuis",
+    "coef": 1
+  },
+  {
+    "word": "non",
+    "coef": 2
+  },
+  {
+    "word": "commence",
+    "coef": 1
+  },
+  {
+    "word": "tapes",
+    "coef": 1
+  },
+  {
+    "word": "cul",
+    "coef": 3
+  },
+  {
+    "word": "gardes",
+    "coef": 1
+  },
+  {
+    "word": "vue",
+    "coef": 2
+  },
+  {
+    "word": "regarde",
+    "coef": 1
+  },
+  {
+    "word": "rue",
+    "coef": 1
+  },
+  {
+    "word": "change",
+    "coef": 1
+  },
+  {
+    "word": "saisons",
+    "coef": 1
+  },
+  {
+    "word": "baves",
+    "coef": 1
+  },
+  {
+    "word": "craches",
+    "coef": 1
+  },
+  {
+    "word": "chies",
+    "coef": 1
+  },
+  {
+    "word": "te",
+    "coef": 2
+  },
+  {
+    "word": "bats",
+    "coef": 1
+  },
+  {
+    "word": "laiton",
+    "coef": 1
+  },
+  {
+    "word": "est-ce",
+    "coef": 1
+  },
+  {
+    "word": "rapporte",
+    "coef": 1
+  },
+  {
+    "word": "regrette",
+    "coef": 1
+  },
+  {
+    "word": "quand",
+    "coef": 2
+  },
+  {
+    "word": "bac",
+    "coef": 1
+  },
+  {
+    "word": "frappe",
+    "coef": 2
+  },
+  {
+    "word": "porte",
+    "coef": 2
+  },
+  {
+    "word": "couleurs",
+    "coef": 1
+  },
+  {
+    "word": "affiches",
+    "coef": 1
+  },
+  {
+    "word": "traitent",
+    "coef": 1
+  },
+  {
+    "word": "bordilles",
+    "coef": 1
+  },
+  {
+    "word": "manille",
+    "coef": 1
+  },
+  {
+    "word": "ok",
+    "coef": 1
+  },
+  {
+    "word": "cigarettes",
+    "coef": 1
+  },
+  {
+    "word": "torpillent",
+    "coef": 1
+  },
+  {
+    "word": "coupable",
+    "coef": 1
+  },
+  {
+    "word": "innocent",
+    "coef": 1
+  },
+  {
+    "word": "cent",
+    "coef": 1
+  },
+  {
+    "word": "oeil",
+    "coef": 2
+  },
+  {
+    "word": "bouche",
+    "coef": 1
+  },
+  {
+    "word": "dent",
+    "coef": 1
+  },
+  {
+    "word": "stressant",
+    "coef": 1
+  },
+  {
+    "word": "très",
+    "coef": 1
+  },
+  {
+    "word": "tôt",
+    "coef": 1
+  },
+  {
+    "word": "déjà",
+    "coef": 3
+  },
+  {
+    "word": "dehors",
+    "coef": 1
+  },
+  {
+    "word": "bande",
+    "coef": 1
+  },
+  {
+    "word": "kader",
+    "coef": 1
+  },
+  {
+    "word": "niquer",
+    "coef": 1
+  },
+  {
+    "word": "ta",
+    "coef": 2
+  },
+  {
+    "word": "parlent",
+    "coef": 1
+  },
+  {
+    "word": "travers",
+    "coef": 1
+  },
+  {
+    "word": "d'amour",
+    "coef": 1
+  },
+  {
+    "word": "travail",
+    "coef": 1
+  },
+  {
+    "word": "l'usine",
+    "coef": 1
+  },
+  {
+    "word": "belles",
+    "coef": 1
+  },
+  {
+    "word": "gazelles",
+    "coef": 1
+  },
+  {
+    "word": "brisent",
+    "coef": 1
+  },
+  {
+    "word": "l'échine",
+    "coef": 1
+  },
+  {
+    "word": "cuisines",
+    "coef": 1
+  },
+  {
+    "word": "élus",
+    "coef": 1
+  },
+  {
+    "word": "ressassent",
+    "coef": 1
+  },
+  {
+    "word": "rénovation",
+    "coef": 1
+  },
+  {
+    "word": "rassure",
+    "coef": 1
+  },
+  {
+    "word": "dernière",
+    "coef": 1
+  },
+  {
+    "word": "couche",
+    "coef": 1
+  },
+  {
+    "word": "peinture",
+    "coef": 1
+  },
+  {
+    "word": "feu",
+    "coef": 1
+  },
+  {
+    "word": "rêves",
+    "coef": 1
+  },
+  {
+    "word": "gisent",
+    "coef": 1
+  },
+  {
+    "word": "enterrés",
+    "coef": 1
+  },
+  {
+    "word": "cour",
+    "coef": 1
+  },
+  {
+    "word": "douze",
+    "coef": 1
+  },
+  {
+    "word": "ans",
+    "coef": 2
+  },
+  {
+    "word": "conduire",
+    "coef": 1
+  },
+  {
+    "word": "mourir",
+    "coef": 1
+  },
+  {
+    "word": "finir",
+    "coef": 1
+  },
+  {
+    "word": "pac",
+    "coef": 1
+  },
+  {
+    "word": "shakur",
+    "coef": 1
+  },
+  {
+    "word": "mater",
+    "coef": 1
+  },
+  {
+    "word": "photos",
+    "coef": 1
+  },
+  {
+    "word": "majeur",
+    "coef": 1
+  },
+  {
+    "word": "aujourd'hui",
+    "coef": 1
+  },
+  {
+    "word": "poto",
+    "coef": 1
+  },
+  {
+    "word": "d'amis",
+    "coef": 1
+  },
+  {
+    "word": "tués",
+    "coef": 1
+  },
+  {
+    "word": "moto",
+    "coef": 1
+  },
+  {
+    "word": "fois",
+    "coef": 2
+  },
+  {
+    "word": "gagnes",
+    "coef": 1
+  },
+  {
+    "word": "mille",
+    "coef": 1
+  },
+  {
+    "word": "perds",
+    "coef": 1
+  },
+  {
+    "word": "loto",
+    "coef": 1
+  },
+  {
+    "word": "dédie",
+    "coef": 1
+  },
+  {
+    "word": "textes",
+    "coef": 1
+  },
+  {
+    "word": "qualité",
+    "coef": 1
+  },
+  {
+    "word": "d'ex-voto",
+    "coef": 1
+  },
+  {
+    "word": "mec",
+    "coef": 1
+  },
+  {
+    "word": "t'es",
+    "coef": 1
+  },
+  {
+    "word": "jugé",
+    "coef": 1
+  },
+  {
+    "word": "manque-toi",
+    "coef": 1
+  },
+  {
+    "word": "jours",
+    "coef": 1
+  },
+  {
+    "word": "bougres",
+    "coef": 1
+  },
+  {
+    "word": "pissent",
+    "coef": 1
+  },
+  {
+    "word": "tarif",
+    "coef": 1
+  },
+  {
+    "word": "minimum",
+    "coef": 1
+  },
+  {
+    "word": "gaffe",
+    "coef": 1
+  },
+  {
+    "word": "pèsent",
+    "coef": 1
+  },
+  {
+    "word": "transforment",
+    "coef": 1
+  },
+  {
+    "word": "secteur",
+    "coef": 1
+  },
+  {
+    "word": "oppidum",
+    "coef": 1
+  },
+  {
+    "word": "gelé",
+    "coef": 1
+  },
+  {
+    "word": "l'ambiance",
+    "coef": 1
+  },
+  {
+    "word": "s'électrise",
+    "coef": 1
+  },
+  {
+    "word": "places",
+    "coef": 2
+  },
+  {
+    "word": "assises",
+    "coef": 1
+  },
+  {
+    "word": "figé",
+    "coef": 1
+  },
+  {
+    "word": "office",
+    "coef": 1
+  },
+  {
+    "word": "froide",
+    "coef": 1
+  },
+  {
+    "word": "banquise",
+    "coef": 1
+  },
+  {
+    "word": "tombent",
+    "coef": 1
+  },
+  {
+    "word": "massues",
+    "coef": 1
+  },
+  {
+    "word": "artistes",
+    "coef": 1
+  },
+  {
+    "word": "mon",
+    "coef": 1
+  },
+  {
+    "word": "pompent",
+    "coef": 1
+  },
+  {
+    "word": "subventions",
+    "coef": 1
+  },
+  {
+    "word": "dsu",
+    "coef": 1
+  },
+  {
+    "word": "tant",
+    "coef": 1
+  },
+  {
+    "word": "d'énergie",
+    "coef": 1
+  },
+  {
+    "word": "perdue",
+    "coef": 1
+  },
+  {
+    "word": "préjugés",
+    "coef": 1
+  },
+  {
+    "word": "indus",
+    "coef": 1
+  },
+  {
+    "word": "décideurs",
+    "coef": 1
+  },
+  {
+    "word": "financiers",
+    "coef": 1
+  },
+  {
+    "word": "pleins",
+    "coef": 1
+  },
+  {
+    "word": "attendant",
+    "coef": 1
+  },
+  {
+    "word": "espoirs",
+    "coef": 1
+  },
+  {
+    "word": "foirent",
+    "coef": 1
+  },
+  {
+    "word": "capotent",
+    "coef": 1
+  },
+  {
+    "word": "rappent",
+    "coef": 1
+  },
+  {
+    "word": "pierres",
+    "coef": 1
+  },
+  {
+    "word": "caisses",
+    "coef": 1
+  },
+  {
+    "word": "volées",
+    "coef": 1
+  },
+  {
+    "word": "dérapent",
+    "coef": 1
+  },
+  {
+    "word": "bordel",
+    "coef": 1
+  },
+  {
+    "word": "lycée",
+    "coef": 1
+  },
+  {
+    "word": "couloirs",
+    "coef": 1
+  },
+  {
+    "word": "ouvre",
+    "coef": 1
+  },
+  {
+    "word": "extincteurs",
+    "coef": 1
+  },
+  {
+    "word": "quartier",
+    "coef": 1
+  },
+  {
+    "word": "terrain",
+    "coef": 1
+  },
+  {
+    "word": "chasse",
+    "coef": 1
+  },
+  {
+    "word": "inspecteurs",
+    "coef": 1
+  },
+  {
+    "word": "dos",
+    "coef": 1
+  },
+  {
+    "word": "œil",
+    "coef": 1
+  },
+  {
+    "word": "car",
+    "coef": 1
+  },
+  {
+    "word": "eaux",
+    "coef": 1
+  },
+  {
+    "word": "truffées",
+    "coef": 1
+  },
+  {
+    "word": "d'éceuils",
+    "coef": 1
+  },
+  {
+    "word": "recueille",
+    "coef": 1
+  },
+  {
+    "word": "blé",
+    "coef": 1
+  },
+  {
+    "word": "joue",
+    "coef": 1
+  },
+  {
+    "word": "sombre",
+    "coef": 1
+  },
+  {
+    "word": "cercueil",
+    "coef": 1
+  },
+  {
+    "word": "potos",
+    "coef": 1
+  },
+  {
+    "word": "chient",
+    "coef": 1
+  },
+  {
+    "word": "profil",
+    "coef": 1
+  },
+  {
+    "word": "roméo",
+    "coef": 1
+  },
+  {
+    "word": "tchoc",
+    "coef": 1
+  },
+  {
+    "word": "popo",
+    "coef": 1
+  },
+  {
+    "word": "fils",
+    "coef": 1
+  },
+  {
+    "word": "bon",
+    "coef": 1
+  },
+  {
+    "word": "rodéo",
+    "coef": 1
+  },
+  {
+    "word": "mettent",
+    "coef": 1
+  },
+  {
+    "word": "pneu",
+    "coef": 1
+  },
+  {
+    "word": "khams",
+    "coef": 1
+  },
+  {
+    "word": "alaf",
+    "coef": 1
+  },
+  {
+    "word": "me",
+    "coef": 1
+  },
+  {
+    "word": "diras",
+    "coef": 1
+  },
+  {
+    "word": "tcherno",
+    "coef": 1
+  },
+  {
+    "word": "hamidou",
+    "coef": 1
+  },
+  {
+    "word": "chaud",
+    "coef": 1
+  },
+  {
+    "word": "sais",
+    "coef": 1
+  },
+  {
+    "word": "moi",
+    "coef": 1
+  },
+  {
+    "word": "bâtard",
+    "coef": 1
+  },
+  {
+    "word": "dû",
+    "coef": 1
+  },
+  {
+    "word": "fêter",
+    "coef": 1
+  },
+  {
+    "word": "vingt",
+    "coef": 1
+  },
+  {
+    "word": "bouteilles",
+    "coef": 1
+  },
+  {
+    "word": "valstar",
+    "coef": 1
+  },
+  {
+    "word": "spot",
+    "coef": 1
+  },
+  {
+    "word": "bout",
+    "coef": 2
+  },
+  {
+    "word": "king",
+    "coef": 1
+  },
+  {
+    "word": "d'entrée",
+    "coef": 1
+  },
+  {
+    "word": "réservés",
+    "coef": 1
+  },
+  {
+    "word": "comprendre",
+    "coef": 1
+  },
+  {
+    "word": "mène",
+    "coef": 1
+  },
+  {
+    "word": "pleine",
+    "coef": 1
+  },
+  {
+    "word": "sec",
+    "coef": 1
+  },
+  {
+    "word": "poussé",
+    "coef": 1
+  },
+  {
+    "word": "haine",
+    "coef": 1
+  },
+  {
+    "word": "naît",
+    "coef": 1
+  },
+  {
+    "word": "programmé",
+    "coef": 1
+  },
+  {
+    "word": "foin",
+    "coef": 1
+  }
+]

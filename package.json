@@ -1,7 +1,7 @@
 {
-  "name": "chat-shiffman",
+  "name": "auto-chat",
   "version": "1.0.0",
-  "description": "Chat app tutorial by Daniel Shiffman",
+  "description": "auto-chat is an autocomplete system intended to be integrated in an instant messaging chat",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,14 +11,15 @@
     "chat",
     "instant",
     "messaging",
-    "sockets"
+    "sockets",
+    "autocomplete",
+    "autocompletion"
   ],
   "author": "math",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
-    "papaparse": "^4.3.6",
     "socket.io": "^2.0.3"
   }
 }

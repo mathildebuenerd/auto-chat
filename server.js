@@ -104,7 +104,7 @@ function checkIfUserIsNew(id) {
 // setupAnalysis('demain-cest-loin');
 
 function setupAnalysis(htmlFile) {
-    let text = fs.readFileSync('data/' + htmlFile + '.html', 'utf-8'); //readFileSync empêche la ligne suivante s'exécuter avant que celle-ci ne soit finie
+    let text = fs.readFileSync('data/input/' + htmlFile + '.html', 'utf-8'); //readFileSync empêche la ligne suivante s'exécuter avant que celle-ci ne soit finie
     // let text = document.querySelector('body').textContent;
     let words = splitWords(text);
     function splitWords(text) {
@@ -174,7 +174,7 @@ function setupAnalysis(htmlFile) {
     createFile(words, htmlFile);
     function createFile(arrayOfWords, filename) {
         let data = JSON.stringify(arrayOfWords, null, 2); // comme on a parser le json, il faut renvoyer du texte et pas un objet, "2" signifie qu'on ajoute 2 tabulations pour le formatage, sinon tout serait minifié sur la même ligne
-        fs.writeFile('data/json/' + filename + '.json', data, finished); // crée un fichier local
+        fs.writeFile('data/output/' + filename + '.json', data, finished); // crée un fichier local
         function finished(err) {
             console.log("all set");
         }
@@ -186,9 +186,8 @@ app.get('/data', createServerFile);
 
 // envoie le fichier json sur le serveur pour pouvoir y accedér facilement depuis le client
 function createServerFile(request, response) {
-    let data = fs.readFileSync('data/json/proust.json');
+    let data = fs.readFileSync('data/output/demain-cest-loin.json');
     data = JSON.parse(data);
-    // console.log(data);
     let reply = data;
     response.send(reply); // envoie le json à la route /data
 }

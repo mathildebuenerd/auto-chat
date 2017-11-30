@@ -125,7 +125,7 @@ function fillAutocompleteWithJson(jsonFile) {
         }
         console.log('words');
         console.log(words);
-        $( "#tags" ).autocomplete({
+        $( ".inputSay" ).autocomplete({
             source: words
         });
     });
