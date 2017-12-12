@@ -187,9 +187,18 @@ app.get('/data', createServerFile);
 // envoie le fichier json sur le serveur pour pouvoir y accedér facilement depuis le client
 function createServerFile(request, response) {
     let data = fs.readFileSync('data/output/demain-cest-loin.json');
-    data = JSON.parse(data);
-    let reply = data;
-    response.send(reply); // envoie le json à la route /data
+        data = JSON.parse(data);
+        let reply = data;
+        response.send(reply); // envoie le json à la route /data
+
+    // let data = fs.readFile('data/output/demain-cest-loin.json', (err, data) => {
+    //     if (err) throw err;
+    //
+    //     data = JSON.parse(data);
+    //     let reply = data;
+    //     response.send(reply); // envoie le json à la route /data
+    // });
+
 }
 
 

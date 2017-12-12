@@ -22,6 +22,27 @@ sayInput.addEventListener('keypress', (e) => {
 
 function fillAutocompleteOptions(query) {
 
+    // s'il y a plusieurs mots, ne se base que sur le dernier
+    let espace = new RegExp('\\s', 'g'); // caractère blanc, s'il y en a au moins un c'est que l'on a plus d'un mot
+    if (espace.exec(query) !== null) {
+        let lastWord = findLastWord(query);
+        function findLastWord(query) {
+            let i = (query.length)-1;
+            let finished = false;
+            // /while (i>=0) {
+                if (espace.exec(query) !== null) {
+                    return i;
+                }
+                i--;
+            // }
+            console.log(i);
+        }
+        for (let i=(query.length)-1; i>=0; i--) { // on part de la dernière lettre et on s'arrête quand on rencontre un espace
+            console.log('1 query : ' + query[i]);
+
+        }
+
+    }
     // console.log("query " + query);
 
     let matchedWords = [];
@@ -33,9 +54,20 @@ function fillAutocompleteOptions(query) {
     }
 
     let suggestions = document.querySelectorAll('.suggestion');
-    for (let i=0; i<suggestions.length; i++) { // on parcoure le nombre de suggestions
-        suggestions[i].textContent = matchedWords[i];
+
+    while (matchedWords.length <= 10) {
+        let randomIndex = Math.floor(Math.random()*listOfWords.length);
+        matchedWords.push(listOfWords[randomIndex]);
+        // console.log("matched words");
+        // console.log(matchedWords);
     }
+
+
+    for (let i=0; i<suggestions.length; i++) { // on parcoure le nombre de suggestions
+        let randomIndex = Math.floor(Math.random()*matchedWords.length);
+        suggestions[i].textContent = matchedWords[randomIndex];
+    }
+
 
 }
 // getWords();
