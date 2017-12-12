@@ -2,7 +2,7 @@
 let express = require('express');
 let app = express();
 
-let server = app.listen(3000);
+let server = app.listen(process.env.PORT || 3000);
 // let bodyParser = require('body-parser'); // pour contourner le Content Security Policy
 // app.use(bodyParser.urlencoded({extended:false}));
 // app.use(bodyParser.json());
@@ -186,18 +186,18 @@ app.get('/data', createServerFile);
 
 // envoie le fichier json sur le serveur pour pouvoir y accedér facilement depuis le client
 function createServerFile(request, response) {
-    let data = fs.readFileSync('data/output/demain-cest-loin.json');
-        data = JSON.parse(data);
-        let reply = data;
-        response.send(reply); // envoie le json à la route /data
-
-    // let data = fs.readFile('data/output/demain-cest-loin.json', (err, data) => {
-    //     if (err) throw err;
-    //
+    // let data = fs.readFileSync('data/output/demain-cest-loin.json');
     //     data = JSON.parse(data);
     //     let reply = data;
     //     response.send(reply); // envoie le json à la route /data
-    // });
+
+    let data = fs.readFile('data/output/demain-cest-loin.json', (err, data) => {
+        if (err) throw err;
+
+        data = JSON.parse(data);
+        let reply = data;
+        response.send(reply); // envoie le json à la route /data
+    });
 
 }
 
