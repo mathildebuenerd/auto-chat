@@ -1,8 +1,8 @@
 // met ne place le serveur
 let express = require('express');
 let app = express();
-
-let server = app.listen(process.env.PORT || 3000);
+let port = process.env.PORT || 3000;
+let server = app.listen(port);
 // let bodyParser = require('body-parser'); // pour contourner le Content Security Policy
 // app.use(bodyParser.urlencoded({extended:false}));
 // app.use(bodyParser.json());
