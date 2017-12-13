@@ -27,14 +27,20 @@ function setup() {
         if (allowedLetters.exec(key)) { // on ne prend en compte que les lettres et l'espace
             console.log("letter allowed! " + key);
 
-            if (key === "Backspace") {
-                key = '';
-            }
-            console.log("sayInput value " + sayInput.value);
-            let lastWord = (sayInput.value).substring(lastSpaceIndex) + key; // on ajoute 1 à lastSpaceIndex pour ne pas compter l'espace
+            let lastWord = "";
 
-            console.log("lastWord " + lastWord);
-            console.log('key ' + key);
+            if (key === "Backspace") {
+                // si c'est la touche backspace qui a été pressée sayInput.value garde en mémoire la touche qui vient d'être effacée
+                // pour éviter ça on ne compte pas la dernière lettre
+                lastWord = (sayInput.value).substring(lastSpaceIndex, sayInput.value.length-1);
+            } else {
+                lastWord = (sayInput.value).substring(lastSpaceIndex) + key; // on ajoute 1 à lastSpaceIndex pour ne pas compter l'espace
+
+            }
+            // console.log("sayInput value " + sayInput.value);
+
+            // console.log("lastWord " + lastWord);
+            // console.log('key ' + key);
             fillAutocompleteOptions(lastWord);
             function fillAutocompleteOptions(query) {
 
@@ -50,8 +56,8 @@ function setup() {
 
                 let suggestions = document.querySelectorAll('.suggestion');
 
-                // Si aucun mot ne correspond, on rempli avec d'autres mots
-                while (matchedWords.length < 3) {
+                // Si trop peu de mots correspondent, on rempli avec d'autres mots
+                while (matchedWords.length < suggestions.length) {
                     let randomIndex = Math.floor(Math.random()*listOfWords.length);
                     matchedWords.push(listOfWords[randomIndex]);
                     // console.log("matched words");
@@ -60,8 +66,16 @@ function setup() {
 
 
                 for (let i=0; i<suggestions.length; i++) { // on parcoure le nombre de suggestions
-                    // let randomIndex = Math.floor(Math.random()*matchedWords.length);
-                    suggestions[i].textContent = matchedWords[i];
+
+                    // s'il y a trop de mots qui correspondent, on choisi au hasard
+                    if (matchedWords.length > suggestions.length) {
+                        let randomIndex = Math.floor(Math.random()*matchedWords.length);
+                        suggestions[i].textContent = matchedWords[randomIndex];
+                    } else {
+                        suggestions[i].textContent = matchedWords[i];
+                    }
+
+
                 }
 
                 console.log("suggestions");
