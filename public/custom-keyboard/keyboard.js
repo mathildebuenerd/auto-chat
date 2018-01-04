@@ -10,27 +10,42 @@ function setup() {
     let allKeys = customKeyboard.querySelectorAll('li');
     let textInput = document.querySelector('.inputSay');
     textInput.addEventListener('focus', () => {
-        console.log('blur');
         textInput.blur(); // if input is an input tag, it prevents the native android keyboard to shows
     });
-    textInput.addEventListener('click', showKeyboard);
+    textInput.addEventListener('click', (e) => {
+        showKeyboard(e, textInput)
+    });
 
     write(textInput, allKeys);
     displayHiddenCharacters(allKeys);
 
 }
 // the keyboard is shown when the input area is triggered
-function showKeyboard(e) {
+function showKeyboard(e, textInput) {
     console.log(e);
+
+    // we need to add a fake pipe, because we use a div element instead of an input to prevent the native keyboard to show, and change the size of the area more easily
+    // before adding it we check if it's not already here
+    if ((textInput.textContent)[textInput.textContent.length-1] !== '|') {
+        showPipe();
+        function showPipe() {
+            let pipe = "<span class='pipe'>|</span>";
+            textInput.innerHTML += pipe;
+        }
+    }
+
     let customKeyboard = document.querySelector('#custom-keyboard');
     customKeyboard.style.display = 'block';
 }
+
+
 
 // when someone touch a key, it's printed in the input aera
 function write(textInput, allKeys) {
 
     for (let i=0; i<allKeys.length; i++) {
         allKeys[i].addEventListener('click', (e) => {
+            let contentInput = textInput.textContent;
             let character = "";
             if(e.target.textContent !== '') {
                 character = e.target.textContent;
@@ -38,7 +53,12 @@ function write(textInput, allKeys) {
                 console.log('hey, e.target.textContent est vide');
             }
 
-            textInput.textContent+= character;
+            // remove the pipe
+            if (contentInput[contentInput.length-1] === "|") {
+                let newContent = contentInput.replace(contentInput[contentInput.length-1], '');
+                contentInput = newContent;
+            }
+            textInput.textContent = contentInput + character;
 
         })
     }

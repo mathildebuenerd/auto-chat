@@ -1,9 +1,22 @@
+/*****
+
+    General
+
+ *****/
+
 *, ul, li {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
     font-size: 11px;
 }
+
+
+/*****
+
+    Input aera
+
+ *****/
 
 .controls {
     display: flex;
@@ -39,6 +52,23 @@
     display: none;
 }
 
+.pipe {
+    animation: blinker 0.8s infinite alternate;
+}
+
+@keyframes blinker {
+    to {
+        opacity:0;
+    }
+}
+
+
+/*****
+
+    Keyboard
+
+ *****/
+
 ul li {
     list-style-type: none;
 }
@@ -46,7 +76,7 @@ ul li {
 li {
     flex: 1;
     margin: 1px;
-    padding: 5px;
+    padding: 10px;
     border-radius: 5px;
     background-color: white;
 }
