@@ -7,9 +7,19 @@ setup();
 function setup() {
 
     // on regarde quand l'utilisateur appuie sur la touche espace pour faire une proposition en fonction du dernier mot en train d'être tapé et pas de l'ensemble de la chaîne de caractère
-    sayInput.addEventListener('keypress', (e) => {
+    sayInput.addEventListener('keydown', (e) => {
         // console.log(e);
+        const keyCode = e.which || e.char;
         let key = e.key;
+
+        console.log(keyCode);
+
+
+        if (key === "Unidentified") {
+            console.log("unidentified !");
+            key = String.fromCharCode(keyCode);
+        }
+
         console.log(key);
         let query = sayInput.value + key;
         let allowedLetters = new RegExp('[a-z, ,\',Space,Backspace]', 'gi');
@@ -37,10 +47,7 @@ function setup() {
                 lastWord = (sayInput.value).substring(lastSpaceIndex) + key; // on ajoute 1 à lastSpaceIndex pour ne pas compter l'espace
 
             }
-            // console.log("sayInput value " + sayInput.value);
 
-            // console.log("lastWord " + lastWord);
-            // console.log('key ' + key);
             fillAutocompleteOptions(lastWord);
             function fillAutocompleteOptions(query) {
 
@@ -93,10 +100,6 @@ function setup() {
 
 
 
-
-// getWords();
-
-
 // change toutes les options toutes les 3 secondes
 // setInterval( () => {
 //     fillAutocompleteOptions();
@@ -135,7 +138,7 @@ function addAutocompleteOptions(quantity) { // d'abord on crée un nombre de pla
     for (let i = 0; i < quantity; i++) {
         let suggestion = document.createElement('p');
         suggestion.setAttribute('class', 'suggestion');
-        suggestion.addEventListener('click', addWordToInputAera);
+        suggestion.addEventListener('click', addWordToInputAera); // on ajoute un listener pour que quand on clique sur le mot ça remplace le mot en train d'être tapé
         autocompleteAera.appendChild(suggestion);
     }
 
@@ -145,8 +148,24 @@ function addAutocompleteOptions(quantity) { // d'abord on crée un nombre de pla
         console.log(e.target.textContent);
 
         let selectedWord = e.target.textContent;
-        let inputAera = document.querySelector(".inputSay");
-        inputAera.value += selectedWord + " ";
+        let inputQuery = document.querySelector(".inputSay");
+
+        let lastSpaceIndex = findLastSpaceIndex(inputQuery.value); // on récupère l'index du dernier espace pour pouvoir ajouter le mot sélectionné au bon endroit
+        console.log("lastSpaceIndex " + lastSpaceIndex);
+        function findLastSpaceIndex(query) {
+            for (let i=query.length; i>0; i--) {
+                if(query[i] === " ") {
+                    return i+1; // on renvoie l'index qui correspond à la lettre qui se situe juste après l'espace
+                }
+            }
+            return 0;
+        }
+
+        let initialQuery = inputQuery.value;
+        let wordToRemove = initialQuery.substring(lastSpaceIndex);
+        console.log("wordToRemove " + wordToRemove);
+        let newQuery = initialQuery.replace(wordToRemove, '') + selectedWord + " ";
+        inputQuery.value = newQuery;
 
 
     }

@@ -26,7 +26,6 @@ let colors = ['blue', 'red', 'green', 'pink'];
 // io.sockets.on('connection', newConnection);
 io.sockets.on('connection', newCo);
 
-
 function newCo(socket) {
     console.log('newCo');
     socket.emit('newCo', 'Nouvelle connection');
@@ -191,7 +190,7 @@ function createServerFile(request, response) {
     //     let reply = data;
     //     response.send(reply); // envoie le json à la route /data
 
-    let data = fs.readFile('data/output/demain-cest-loin.json', (err, data) => {
+    let data = fs.readFile('data/output/proust.json', (err, data) => {
         if (err) throw err;
 
         data = JSON.parse(data);
