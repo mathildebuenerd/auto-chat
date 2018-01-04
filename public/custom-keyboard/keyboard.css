@@ -5,9 +5,38 @@
     font-size: 11px;
 }
 
+.controls {
+    display: flex;
+    padding: 15px;
+}
+
+.inputSay {
+    flex:1;
+    /*height: 35px;*/
+    border-radius: 25px;
+    border: none;
+    background-color: #eee;
+    padding: 10px;
+    font-size: 13px;
+}
+
+.controls .submit {
+    width: 35px;
+    height: 35px;
+    border-radius: 30px;
+    background-color: blue;
+    border: 3px solid blue;
+    color: white;
+    font-weight: 100;
+    font-size: 20px;
+    margin-left: 10px;
+    /*font-family: "GT America", sans-serif;*/
+}
+
 
 #custom-keyboard {
     background-color: #eeeeee;
+    display: none;
 }
 
 ul li {
