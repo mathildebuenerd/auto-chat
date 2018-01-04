@@ -1,0 +1,32 @@
+*, ul, li {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 11px;
+}
+
+
+#custom-keyboard {
+    background-color: #eeeeee;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+li {
+    flex: 1;
+    margin: 1px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.keyrow {
+    display: flex;
+    width: 100vw;
+}
+
+.on {
+    display: none;
+}
