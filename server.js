@@ -183,7 +183,7 @@ function setupAnalysis(htmlFile) {
 
 app.get('/data', createServerFile);
 
-// envoie le fichier json sur le serveur pour pouvoir y accedér facilement depuis le client
+// envoie le fichier json sur le serveur pour pouvoir y accéder facilement depuis le client
 function createServerFile(request, response) {
     // let data = fs.readFileSync('data/output/demain-cest-loin.json');
     //     data = JSON.parse(data);
