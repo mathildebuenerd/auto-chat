@@ -12,26 +12,6 @@
 }
 
 
-/*****
-
-    Input aera
-
- *****/
-
-.controls .submit {
-    width: 35px;
-    height: 35px;
-    border-radius: 30px;
-    background-color: blue;
-    border: 3px solid blue;
-    color: white;
-    font-weight: 100;
-    font-size: 20px;
-    margin-left: 10px;
-    /*font-family: "GT America", sans-serif;*/
-}
-
-
 #custom-keyboard {
     background-color: #eeeeee;
     position: fixed;
@@ -60,11 +40,11 @@
 
  *****/
 
-ul li {
+#custom-keyboard ul li {
     list-style-type: none;
 }
 
-li {
+#custom-keyboard li {
     flex: 1;
     /*margin: 1px;*/
     padding: 10px;
@@ -86,6 +66,6 @@ li {
     width: 100vw;
 }
 
-.on {
+#custom-keyboard .on {
     display: none;
 }

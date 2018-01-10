@@ -1,3 +1,9 @@
+/*****
+
+    General
+
+ *****/
+
 * {
     font-family: sans-serif;
 }
@@ -5,43 +11,112 @@
 body {
     margin: 0;
     padding: 0;
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 h1, .conversation, .controls {
     margin-left: 10px;
 }
 
+
+/*****
+
+    Conversation
+
+ *****/
+
+
+.conversation {
+    /*max-height: 70vh;*/
+    overflow-y: scroll;
+}
+
+.blockSay {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.blockSay.me {
+    flex-direction: row-reverse;
+}
+
+.blockSay.me .say {
+    background-color: blue;
+    color: white;
+}
+
+
+.blockSay.others .say {
+    background-color: #eee;
+    color: black;
+}
+
+
 .say {
     /*border: 1px solid blue;*/
     border-radius: 20px;
     padding: 10px;
-    color: white;
-    margin-bottom: 10px;
     margin-top: 0!important;
     display: inline-block;
+    font-size: 14px;
+}
+
+.blockname {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 30px;
+    border: 1px solid grey;
+    margin: 0 5px;
 }
 
 .name {
-    margin: 0 0 0 11px;
     color: #bbb;
+}
+
+
+/*****
+
+    Autocomplete area
+
+ *****/
+
+.autocomplete-aera, .controls {
+    width: 95vw;
 }
 
 .autocomplete-aera {
     display: flex;
+    position: absolute;
+    bottom: 225px;
+    justify-content: flex-end;
+    flex-wrap: wrap-reverse;
+    /*width: 95vw;*/
 }
 
-.autocomplete-aera p {
-    color: white;
-    background-color: black;
+
+.autocomplete-aera .suggestion {
+    font-size: 14px;
+    color: blue;
+    border: 1px solid blue;
+    background-color: white;
     padding: 10px;
     margin-left:5px;
-    /*border-radius: 20px;*/
+    margin-top: 5px;
+    border-radius: 20px;
 }
 
-.conversation {
-    max-height: 70vh;
-    overflow-y: scroll;
-}
+
+
+/*****
+
+    Controls : input + submit
+
+ *****/
 
 .inputSay {
     flex:1;
@@ -55,44 +130,26 @@ h1, .conversation, .controls {
 }
 
 .controls .submit {
-    width: 13%;
-    height: 35px;
-    border-radius: 30px;
-    background-color: blue;
-    border: 3px solid blue;
-    color: white;
-    font-weight: 100;
-    font-size: 20px;
-    /*font-family: "GT America", sans-serif;*/
-}
+     width: 35px;
+     height: 35px;
+     border-radius: 30px;
+     background-color: blue;
+     border: 3px solid blue;
+     color: white;
+     font-weight: 100;
+     font-size: 20px;
+    margin-left: 10px;
+     /*font-family: "GT America", sans-serif;*/
+ }
 
 .controls {
     display: flex;
-    padding: 15px;
     position: absolute;
     bottom: 15px;
     transition: 0.5s ease;
 }
 
 .controls.active {
-    bottom:165px;
+    bottom:180px;
 }
 
-
-/**** jQuery UI - Autocomplete ****/
-
-.ui-autocomplete {
-    border: solid 2px red;
-}
-
-.ui-autocomplete-input {
-    border:solid 2px blue;
-}
-
-.ui-menu-item {
-    display: inline-flex;
-    background-color: pink;
-    padding: 10px;
-    border-radius: 20px;
-    color: white;
-}

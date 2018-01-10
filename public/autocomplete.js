@@ -91,7 +91,7 @@ function setup() {
     //     }
     // });
 
-    addAutocompleteOptions(3);
+    addAutocompleteOptions(8);
     fillAutocompleteWithJson('data');
 
 }

@@ -37,6 +37,7 @@ function showKeyboard(e, textInput) {
     let customKeyboard = document.querySelector('#custom-keyboard');
     customKeyboard.classList.add('active');
     textInput.parentNode.classList.add('active'); // we want to move the section#controls element, and it's the textInput parentNode
+    calculateConversationHeight(window.innerWidth, window.innerHeight);
 }
 
 
@@ -50,6 +51,7 @@ function write(textInput, allKeys) {
             let character = "";
             let isLetter = false;
             let regexLetters = '/[a-z,. ]/gi';
+
             if (e.target.classList.contains('letter')) { // if the character is a letter or a space or punctuation
                 character = e.target.textContent;
                 isLetter = true;
@@ -68,11 +70,11 @@ function write(textInput, allKeys) {
                 }
 
             } else if (e.target.classList.contains('delete')) {
-                console.log(contentInput);
+                // console.log(contentInput);
                 contentInput = contentInput.slice(0, -1); // we remove the last character
                 textInput.textContent = contentInput;
             } else {
-                console.log('je ne reconnais pas le caractère');
+                // console.log('je ne reconnais pas le caractère');
             }
 
             // remove the pipe
@@ -85,38 +87,33 @@ function write(textInput, allKeys) {
                 textInput.textContent = contentInput + character;
             }
 
-            autocomplete(textInput.textContent);
+            autocomplete(textInput.textContent[textInput.textContent.length-1]);
             function autocomplete(lastKey) {
 
-                let key = lastKey;
+                // let key = lastKey;
+                // console.log('key ' + key);
 
-                console.log('key ' + key);
-                // let query = sayInput.textContent + key;
                 let query = sayInput.textContent;
-                let allowedLetters = new RegExp('[a-z, ,\',Space,Backspace]', 'gi');
-                let lastSpaceIndex = findLastSpaceIndex(query); // on récupère l'index du dernier espace pour pouvoir slicer correctement le dernier mot
-                console.log("lastSpaceIndex " + lastSpaceIndex);
+                let allowedLetters = new RegExp('[a-z\', ]', 'gi');
+                let lastSpaceIndex = findLastSpaceIndex(query); // on récupère l'index du dernier espace pour pouvoir slicer correctement le dernier mot, qui est celui qui sert à l'autocomplétion
+                // console.log('query ' + query);
+                // console.log("lastSpaceIndex " + lastSpaceIndex);
                 function findLastSpaceIndex(query) {
+                    console.log(query.length);
+                    let space = /\s/;
                     for (let i=query.length; i>0; i--) {
-                        if(query[i] === " ") {
+                        console.log('query[i] ' + query[i]);
+                        if(space.exec(query[i])) {
                             return i+1; // on renvoie l'index qui correspond à la lettre qui se situe juste après l'espace
                         }
                     }
                     return 0;
                 }
 
-                if (allowedLetters.exec(key)) { // on ne prend en compte que les lettres et l'espace
-                    console.log("letter allowed! " + key);
+                if (allowedLetters.exec(lastKey)) { // we check that the last key is normal character
+                    // console.log("letter allowed! " + lastKey);
 
-                    let lastWord = "";
-
-                    if (key === "Backspace") {
-                        // si c'est la touche backspace qui a été pressée sayInput.textContent garde en mémoire la touche qui vient d'être effacée
-                        // pour éviter ça on ne compte pas la dernière lettre
-                        lastWord = (sayInput.textContent).substring(lastSpaceIndex, sayInput.textContent.length-1);
-                    } else {
-                        lastWord = (sayInput.textContent).substring(lastSpaceIndex) + key; // on ajoute 1 à lastSpaceIndex pour ne pas compter l'espace
-                    }
+                    let lastWord = (sayInput.textContent).substring(lastSpaceIndex); // on ajoute 1 à lastSpaceIndex pour ne pas compter l'espace
 
                     fillAutocompleteOptions(lastWord);
                     function fillAutocompleteOptions(query) {
@@ -158,6 +155,9 @@ function write(textInput, allKeys) {
 
                     }
                 }
+
+                calculateConversationHeight(window.innerWidth, window.innerHeight);
+
             }
 
         });
