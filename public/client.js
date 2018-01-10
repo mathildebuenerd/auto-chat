@@ -7,10 +7,10 @@ let userInfos = "";
 let submitButton = document.querySelector('[data-type="reponse"]');
 submitButton.addEventListener('click', () => {
     let sayInput = document.querySelector('.inputSay');
-    let say = sayInput.value;
+    let say = sayInput.textContent;
     console.log("say envoyé au server " + say);
     socket.emit('newSay', {say: say, username: userInfos.name}); // on envoie un message de type newSay qui contient la phrase qui vient d'être écrite
-    sayInput.value = "";
+    sayInput.textContent = "";
 });
 
 //submitButton.addEventListener('keypress', ())

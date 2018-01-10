@@ -82,8 +82,6 @@ function write(textInput, allKeys) {
             if (isLetter === true) { // if the key is a letter, we add it to the current string, but we don't want to do it if it is a 'return' or 'caps' key for example
                 textInput.textContent = contentInput + character;
             }
-
-
         });
     }
 
