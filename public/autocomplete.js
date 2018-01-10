@@ -7,91 +7,89 @@ setup();
 function setup() {
 
     // on regarde quand l'utilisateur appuie sur la touche espace pour faire une proposition en fonction du dernier mot en train d'être tapé et pas de l'ensemble de la chaîne de caractère
-    sayInput.addEventListener('keydown', (e) => {
-        // console.log(e);
-        const keyCode = e.which || e.char;
-        let key = e.key;
-
-        console.log(keyCode);
-
-
-        if (key === "Unidentified") {
-            console.log("unidentified !");
-            key = String.fromCharCode(keyCode);
-        }
-
-        console.log(key);
-        let query = sayInput.value + key;
-        let allowedLetters = new RegExp('[a-z, ,\',Space,Backspace]', 'gi');
-        let lastSpaceIndex = findLastSpaceIndex(query); // on récupère l'index du dernier espace pour pouvoir slicer correctement le dernier mot
-        console.log("lastSpaceIndex " + lastSpaceIndex);
-        function findLastSpaceIndex(query) {
-            for (let i=query.length; i>0; i--) {
-                if(query[i] === " ") {
-                    return i+1; // on renvoie l'index qui correspond à la lettre qui se situe juste après l'espace
-                }
-            }
-            return 0;
-        }
-
-        if (allowedLetters.exec(key)) { // on ne prend en compte que les lettres et l'espace
-            console.log("letter allowed! " + key);
-
-            let lastWord = "";
-
-            if (key === "Backspace") {
-                // si c'est la touche backspace qui a été pressée sayInput.value garde en mémoire la touche qui vient d'être effacée
-                // pour éviter ça on ne compte pas la dernière lettre
-                lastWord = (sayInput.value).substring(lastSpaceIndex, sayInput.value.length-1);
-            } else {
-                lastWord = (sayInput.value).substring(lastSpaceIndex) + key; // on ajoute 1 à lastSpaceIndex pour ne pas compter l'espace
-
-            }
-
-            fillAutocompleteOptions(lastWord);
-            function fillAutocompleteOptions(query) {
-
-                console.log("query dans fillautocomplete " + query);
-
-                let matchedWords = [];
-                for (let i=0; i<listOfWords.length; i++) {
-                    if(listOfWords[i].indexOf(query) !== -1) { // si le pattern match, on ajoute le mot dans le tableau
-                        // console.log("j'ai trouvé une correspondance! " + listOfWords[i]);
-                        matchedWords.push(listOfWords[i]);
-                    }
-                }
-
-                let suggestions = document.querySelectorAll('.suggestion');
-
-                // Si trop peu de mots correspondent, on rempli avec d'autres mots
-                while (matchedWords.length < suggestions.length) {
-                    let randomIndex = Math.floor(Math.random()*listOfWords.length);
-                    matchedWords.push(listOfWords[randomIndex]);
-                    // console.log("matched words");
-                    // console.log(matchedWords);
-                }
-
-
-                for (let i=0; i<suggestions.length; i++) { // on parcoure le nombre de suggestions
-
-                    // s'il y a trop de mots qui correspondent, on choisi au hasard
-                    if (matchedWords.length > suggestions.length) {
-                        let randomIndex = Math.floor(Math.random()*matchedWords.length);
-                        suggestions[i].textContent = matchedWords[randomIndex];
-                    } else {
-                        suggestions[i].textContent = matchedWords[i];
-                    }
-
-
-                }
-
-                console.log("suggestions");
-                console.log(matchedWords);
-
-
-            }
-        }
-    });
+    // sayInput.addEventListener('keydown', (e) => {
+    //     // console.log(e);
+    //     const keyCode = e.which || e.char;
+    //     let key = e.key;
+    //
+    //     console.log(keyCode);
+    //
+    //     if (key === "Unidentified") {
+    //         console.log("unidentified !");
+    //         key = String.fromCharCode(keyCode);
+    //     }
+    //     console.log(key);
+    //     let query = sayInput.textContent + key;
+    //     let allowedLetters = new RegExp('[a-z, ,\',Space,Backspace]', 'gi');
+    //     let lastSpaceIndex = findLastSpaceIndex(query); // on récupère l'index du dernier espace pour pouvoir slicer correctement le dernier mot
+    //     console.log("lastSpaceIndex " + lastSpaceIndex);
+    //     function findLastSpaceIndex(query) {
+    //         for (let i=query.length; i>0; i--) {
+    //             if(query[i] === " ") {
+    //                 return i+1; // on renvoie l'index qui correspond à la lettre qui se situe juste après l'espace
+    //             }
+    //         }
+    //         return 0;
+    //     }
+    //
+    //     if (allowedLetters.exec(key)) { // on ne prend en compte que les lettres et l'espace
+    //         console.log("letter allowed! " + key);
+    //
+    //         let lastWord = "";
+    //
+    //         if (key === "Backspace") {
+    //             // si c'est la touche backspace qui a été pressée sayInput.textContent garde en mémoire la touche qui vient d'être effacée
+    //             // pour éviter ça on ne compte pas la dernière lettre
+    //             lastWord = (sayInput.textContent).substring(lastSpaceIndex, sayInput.textContent.length-1);
+    //         } else {
+    //             lastWord = (sayInput.textContent).substring(lastSpaceIndex) + key; // on ajoute 1 à lastSpaceIndex pour ne pas compter l'espace
+    //
+    //         }
+    //
+    //         fillAutocompleteOptions(lastWord);
+    //         function fillAutocompleteOptions(query) {
+    //
+    //             console.log("query dans fillautocomplete " + query);
+    //
+    //             let matchedWords = [];
+    //             for (let i=0; i<listOfWords.length; i++) {
+    //                 if(listOfWords[i].indexOf(query) !== -1) { // si le pattern match, on ajoute le mot dans le tableau
+    //                     // console.log("j'ai trouvé une correspondance! " + listOfWords[i]);
+    //                     matchedWords.push(listOfWords[i]);
+    //                 }
+    //             }
+    //
+    //             let suggestions = document.querySelectorAll('.suggestion');
+    //
+    //             // Si trop peu de mots correspondent, on rempli avec d'autres mots
+    //             while (matchedWords.length < suggestions.length) {
+    //                 let randomIndex = Math.floor(Math.random()*listOfWords.length);
+    //                 matchedWords.push(listOfWords[randomIndex]);
+    //                 // console.log("matched words");
+    //                 // console.log(matchedWords);
+    //             }
+    //
+    //
+    //             for (let i=0; i<suggestions.length; i++) { // on parcoure le nombre de suggestions
+    //
+    //                 // s'il y a trop de mots qui correspondent, on choisi au hasard
+    //                 if (matchedWords.length > suggestions.length) {
+    //                     let randomIndex = Math.floor(Math.random()*matchedWords.length);
+    //                     suggestions[i].textContent = matchedWords[randomIndex];
+    //                 } else {
+    //                     suggestions[i].textContent = matchedWords[i];
+    //                 }
+    //
+    //
+    //             }
+    //
+    //             console.log("suggestions");
+    //             console.log(matchedWords);
+    //
+    //
+    //         }
+    //     }
+    // });
 
     addAutocompleteOptions(3);
     fillAutocompleteWithJson('data');
@@ -150,7 +148,7 @@ function addAutocompleteOptions(quantity) { // d'abord on crée un nombre de pla
         let selectedWord = e.target.textContent;
         let inputQuery = document.querySelector(".inputSay");
 
-        let lastSpaceIndex = findLastSpaceIndex(inputQuery.value); // on récupère l'index du dernier espace pour pouvoir ajouter le mot sélectionné au bon endroit
+        let lastSpaceIndex = findLastSpaceIndex(inputQuery.textContent); // on récupère l'index du dernier espace pour pouvoir ajouter le mot sélectionné au bon endroit
         console.log("lastSpaceIndex " + lastSpaceIndex);
         function findLastSpaceIndex(query) {
             for (let i=query.length; i>0; i--) {
@@ -161,11 +159,11 @@ function addAutocompleteOptions(quantity) { // d'abord on crée un nombre de pla
             return 0;
         }
 
-        let initialQuery = inputQuery.value;
+        let initialQuery = inputQuery.textContent;
         let wordToRemove = initialQuery.substring(lastSpaceIndex);
         console.log("wordToRemove " + wordToRemove);
         let newQuery = initialQuery.replace(wordToRemove, '') + selectedWord + " ";
-        inputQuery.value = newQuery;
+        inputQuery.textContent = newQuery;
 
 
     }

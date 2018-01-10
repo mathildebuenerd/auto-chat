@@ -44,12 +44,14 @@ h1, .conversation, .controls {
 }
 
 .inputSay {
-    width: 80%;
-    height: 35px;
+    flex:1;
+    /*height: 35px;*/
     border-radius: 25px;
     border: none;
     background-color: #eee;
-    margin: 0 0 20px 0;
+    padding: 10px;
+    font-size: 13px;
+    width: 70vw;
 }
 
 .controls .submit {
@@ -62,6 +64,18 @@ h1, .conversation, .controls {
     font-weight: 100;
     font-size: 20px;
     /*font-family: "GT America", sans-serif;*/
+}
+
+.controls {
+    display: flex;
+    padding: 15px;
+    position: absolute;
+    bottom: 15px;
+    transition: 0.5s ease;
+}
+
+.controls.active {
+    bottom:165px;
 }
 
 

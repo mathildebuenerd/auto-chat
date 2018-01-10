@@ -35,7 +35,8 @@ function showKeyboard(e, textInput) {
     }
 
     let customKeyboard = document.querySelector('#custom-keyboard');
-    customKeyboard.setAttribute('class', 'active');
+    customKeyboard.classList.add('active');
+    textInput.parentNode.classList.add('active'); // we want to move the section#controls element, and it's the textInput parentNode
 }
 
 
@@ -45,17 +46,14 @@ function write(textInput, allKeys) {
 
     for (let i=0; i<allKeys.length; i++) {
         allKeys[i].addEventListener('click', (e) => { // add the listener on each key
-
-            console.log(e.target.classList);
             let contentInput = textInput.textContent;
             let character = "";
             let isLetter = false;
             let regexLetters = '/[a-z,. ]/gi';
-            console.log('typeof ' + typeof e.target.textContent);
-            if ((e.target.textContent).search(regexLetters) && !e.target.classList.contains('capslock')) { // if the character is a letter or a space or punctuation
+            if (e.target.classList.contains('letter')) { // if the character is a letter or a space or punctuation
                 character = e.target.textContent;
                 isLetter = true;
-                console.log('je suis un caractère');
+                // console.log('je suis un caractère');
 
             } else if (e.target.classList.contains('capslock')) {
                 let allLetters = document.querySelectorAll('.letter');
@@ -69,6 +67,10 @@ function write(textInput, allKeys) {
                     }
                 }
 
+            } else if (e.target.classList.contains('delete')) {
+                console.log(contentInput);
+                contentInput = contentInput.slice(0, -1); // we remove the last character
+                textInput.textContent = contentInput;
             } else {
                 console.log('je ne reconnais pas le caractère');
             }
@@ -82,8 +84,88 @@ function write(textInput, allKeys) {
             if (isLetter === true) { // if the key is a letter, we add it to the current string, but we don't want to do it if it is a 'return' or 'caps' key for example
                 textInput.textContent = contentInput + character;
             }
+
+            autocomplete(textInput.textContent);
+            function autocomplete(lastKey) {
+
+                let key = lastKey;
+
+                console.log('key ' + key);
+                // let query = sayInput.textContent + key;
+                let query = sayInput.textContent;
+                let allowedLetters = new RegExp('[a-z, ,\',Space,Backspace]', 'gi');
+                let lastSpaceIndex = findLastSpaceIndex(query); // on récupère l'index du dernier espace pour pouvoir slicer correctement le dernier mot
+                console.log("lastSpaceIndex " + lastSpaceIndex);
+                function findLastSpaceIndex(query) {
+                    for (let i=query.length; i>0; i--) {
+                        if(query[i] === " ") {
+                            return i+1; // on renvoie l'index qui correspond à la lettre qui se situe juste après l'espace
+                        }
+                    }
+                    return 0;
+                }
+
+                if (allowedLetters.exec(key)) { // on ne prend en compte que les lettres et l'espace
+                    console.log("letter allowed! " + key);
+
+                    let lastWord = "";
+
+                    if (key === "Backspace") {
+                        // si c'est la touche backspace qui a été pressée sayInput.textContent garde en mémoire la touche qui vient d'être effacée
+                        // pour éviter ça on ne compte pas la dernière lettre
+                        lastWord = (sayInput.textContent).substring(lastSpaceIndex, sayInput.textContent.length-1);
+                    } else {
+                        lastWord = (sayInput.textContent).substring(lastSpaceIndex) + key; // on ajoute 1 à lastSpaceIndex pour ne pas compter l'espace
+                    }
+
+                    fillAutocompleteOptions(lastWord);
+                    function fillAutocompleteOptions(query) {
+
+                        console.log("query dans fillautocomplete " + query);
+
+                        let matchedWords = [];
+                        for (let i=0; i<listOfWords.length; i++) {
+                            if(listOfWords[i].indexOf(query) !== -1) { // si le pattern match, on ajoute le mot dans le tableau
+                                // console.log("j'ai trouvé une correspondance! " + listOfWords[i]);
+                                matchedWords.push(listOfWords[i]);
+                            }
+                        }
+
+                        let suggestions = document.querySelectorAll('.suggestion');
+
+                        // Si trop peu de mots correspondent, on rempli avec d'autres mots
+                        while (matchedWords.length < suggestions.length) {
+                            let randomIndex = Math.floor(Math.random()*listOfWords.length);
+                            matchedWords.push(listOfWords[randomIndex]);
+                            // console.log("matched words");
+                            // console.log(matchedWords);
+                        }
+
+                        for (let i=0; i<suggestions.length; i++) { // on parcoure le nombre de suggestions
+
+                            // s'il y a trop de mots qui correspondent, on choisi au hasard
+                            if (matchedWords.length > suggestions.length) {
+                                let randomIndex = Math.floor(Math.random()*matchedWords.length);
+                                suggestions[i].textContent = matchedWords[randomIndex];
+                            } else {
+                                suggestions[i].textContent = matchedWords[i];
+                            }
+                        }
+
+                        console.log("suggestions");
+                        console.log(matchedWords);
+
+
+                    }
+                }
+            }
+
         });
     }
+    
+
+    
+
 
 }
 
